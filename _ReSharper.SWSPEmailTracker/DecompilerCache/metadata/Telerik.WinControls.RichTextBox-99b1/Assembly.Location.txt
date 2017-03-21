@@ -1,0 +1,1 @@
+C:\Program Files (x86)\Telerik\RadControls for WinForms Q2 2011\Bin\Net40\Telerik.WinControls.RichTextBox.dll

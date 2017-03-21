@@ -1,0 +1,18 @@
+R# version: 5.0.1659.36
+assembly Telerik.WinControls, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+  file C:\Program Files (x86)\Telerik\RadControls for WinForms Q2 2011\Bin\Telerik.WinControls.dll mtime 07/13/2011 09:15:58 ق.ظ
+referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 03/18/2010 03:01:26 ب.ظ
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 09/06/2012 04:20:24 ق.ظ
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll mtime 03/18/2010 03:01:26 ب.ظ
+referenced assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll mtime 03/18/2010 03:01:26 ب.ظ
+referenced assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll mtime 03/18/2010 03:01:26 ب.ظ
+referenced assembly TelerikCommon, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e
+  file C:\Program Files (x86)\Telerik\RadControls for WinForms Q2 2011\Bin\TelerikCommon.dll mtime 07/13/2011 09:15:54 ق.ظ
+referenced assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll mtime 03/18/2010 03:01:26 ب.ظ
+referenced assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll mtime 03/18/2010 03:01:26 ب.ظ

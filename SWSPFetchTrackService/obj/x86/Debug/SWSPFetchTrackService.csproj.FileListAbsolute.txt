@@ -1,0 +1,8 @@
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\bin\Debug\SWSPFetchTrackService.exe
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\bin\Debug\SWSPFetchTrackService.pdb
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\obj\x86\Debug\SWSPFetchTrackService.ProjectInstaller.resources
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\obj\x86\Debug\SWSPFetchTrackService.exe
+C:\projects\SWSPEmailTracker\SWSPFetchTrackService\obj\x86\Debug\SWSPFetchTrackService.pdb

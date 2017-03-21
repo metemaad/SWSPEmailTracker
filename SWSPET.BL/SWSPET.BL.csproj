@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3880E46-BA14-4E2D-B603-437D3BB12CAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SWSPET.BL</RootNamespace>
+    <AssemblyName>SWSPET.BL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="FarsiLibrary.Resources">
+      <HintPath>..\ExternalDll\FarsiLibrary.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Utils">
+      <HintPath>..\ExternalDll\FarsiLibrary.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Win">
+      <HintPath>..\ExternalDll\FarsiLibrary.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate">
+      <HintPath>..\..\MIKiosk\MIKiosk.BusinessLayer\bin\Debug\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\MIKiosk\MIKiosk.BusinessLayer\bin\Debug\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\MIKiosk\MIKiosk.BusinessLayer\bin\Debug\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Validator">
+      <HintPath>..\..\MIKiosk\MIKiosk.BusinessLayer\bin\Debug\NHibernate.Validator.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="SWSPVCard">
+      <HintPath>..\SWSPVCard\bin\Debug\SWSPVCard.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RichTextBox, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI.Design, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\EntityFormService.cs" />
+    <Compile Include="Controls\WinControls\BaseGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\BaseGridView.designer.cs">
+      <DependentUpon>BaseGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WinControls\BaseTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\BaseTextBox.Designer.cs">
+      <DependentUpon>BaseTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WinControls\IUIPart.cs" />
+    <Compile Include="Controls\WinControls\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WinControls\MainFormDataEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\MainFormDataEntry.designer.cs">
+      <DependentUpon>MainFormDataEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WinControls\ObjectSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\ObjectSelection.designer.cs">
+      <DependentUpon>ObjectSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WinControls\ObjectSelectionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\ObjectSelectionList.designer.cs">
+      <DependentUpon>ObjectSelectionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WinControls\PersonInstantEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\PersonInstantEdit.Designer.cs">
+      <DependentUpon>PersonInstantEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WinControls\UIPart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WinControls\UIPart.designer.cs">
+      <DependentUpon>UIPart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emlreader\MimeReader.cs" />
+    <Compile Include="emlreader\QuotedPrintable.cs" />
+    <Compile Include="emlreader\RxMailMessage.cs" />
+    <Compile Include="Infrastructure\AutoSizeAttribute.cs" />
+    <Compile Include="Infrastructure\BoldColumnAttribute.cs" />
+    <Compile Include="Infrastructure\BulkSMS.cs" />
+    <Compile Include="Infrastructure\DataAccess.cs" />
+    <Compile Include="Infrastructure\DnsMx.cs" />
+    <Compile Include="Infrastructure\Entity.cs" />
+    <Compile Include="Infrastructure\IConfigurable.cs" />
+    <Compile Include="Infrastructure\IFile.cs" />
+    <Compile Include="Infrastructure\ImageFile.cs" />
+    <Compile Include="Infrastructure\IPersistable.cs" />
+    <Compile Include="Infrastructure\LogableAttribute.cs" />
+    <Compile Include="Infrastructure\OAuthBase.cs" />
+    <Compile Include="Infrastructure\ObjectViewAttribute.cs" />
+    <Compile Include="Infrastructure\RegexUtilities.cs" />
+    <Compile Include="Infrastructure\Telnet.cs" />
+    <Compile Include="Loging\Mapping\LogDataMap.cs" />
+    <Compile Include="Loging\Model\LogData.cs" />
+    <Compile Include="Loging\Model\LogType.cs" />
+    <Compile Include="Login\Mapping\UserMap.cs" />
+    <Compile Include="Login\Model\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\ContactGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\ContactGrid.Designer.cs">
+      <DependentUpon>ContactGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\ContactListUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\ContactListUI.Designer.cs">
+      <DependentUpon>ContactListUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\Editor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\Editor.designer.cs">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\EditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\EditorForm.designer.cs">
+      <DependentUpon>EditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\InstantAddNewContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\InstantAddNewContact.Designer.cs">
+      <DependentUpon>InstantAddNewContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\LinkDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\LinkDialog.designer.cs">
+      <DependentUpon>LinkDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\PersonUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\PersonUI.Designer.cs">
+      <DependentUpon>PersonUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\Recent Contacts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\Recent Contacts.Designer.cs">
+      <DependentUpon>Recent Contacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\SearchDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\SearchDialog.designer.cs">
+      <DependentUpon>SearchDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\ShowEmailUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\ShowEmailUI.Designer.cs">
+      <DependentUpon>ShowEmailUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Control\TextInsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SWSPET\Control\TextInsertForm.designer.cs">
+      <DependentUpon>TextInsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SWSPET\Mapping\AddressMap.cs" />
+    <Compile Include="SWSPET\Mapping\EmailAttachmentMap.cs" />
+    <Compile Include="SWSPET\Mapping\EmailFailedDeliveryStatusMap.cs" />
+    <Compile Include="SWSPET\Mapping\EmailMap.cs" />
+    <Compile Include="SWSPET\Mapping\EmailTemplateMap.cs" />
+    <Compile Include="SWSPET\Mapping\FinalRecipientMap.cs" />
+    <Compile Include="SWSPET\Mapping\ImageTrackMap.cs" />
+    <Compile Include="SWSPET\Mapping\IMMap.cs" />
+    <Compile Include="SWSPET\Mapping\InboxInformationMap.cs" />
+    <Compile Include="SWSPET\Mapping\IncommingEmailMap.cs" />
+    <Compile Include="SWSPET\Mapping\IPInfoMap.cs" />
+    <Compile Include="SWSPET\Mapping\LinkTrackMap.cs" />
+    <Compile Include="SWSPET\Mapping\OutgoingEmailMap.cs" />
+    <Compile Include="SWSPET\Mapping\PersonMap.cs" />
+    <Compile Include="SWSPET\Mapping\PhonesMap.cs" />
+    <Compile Include="SWSPET\Mapping\TrackDataMap.cs" />
+    <Compile Include="SWSPET\Mapping\TrackItamMap.cs" />
+    <Compile Include="SWSPET\Mapping\WebsiteMap.cs" />
+    <Compile Include="SWSPET\Model\Address.cs" />
+    <Compile Include="SWSPET\Model\Email.cs" />
+    <Compile Include="SWSPET\Model\EmailAttachment.cs" />
+    <Compile Include="SWSPET\Model\EmailFailedDeliveryStatus.cs" />
+    <Compile Include="SWSPET\Model\EmailTemplate.cs" />
+    <Compile Include="SWSPET\Model\FinalRecipient.cs" />
+    <Compile Include="SWSPET\Model\Group.cs" />
+    <Compile Include="SWSPET\Model\IM.cs" />
+    <Compile Include="SWSPET\Model\ImageTrack.cs" />
+    <Compile Include="SWSPET\Model\InboxInformation.cs" />
+    <Compile Include="SWSPET\Model\IncommingEmail.cs" />
+    <Compile Include="SWSPET\Model\IPInfo.cs" />
+    <Compile Include="SWSPET\Model\LinkTrack.cs" />
+    <Compile Include="SWSPET\Model\Organization.cs" />
+    <Compile Include="SWSPET\Model\OutgoingEmail.cs" />
+    <Compile Include="SWSPET\Model\Person.cs" />
+    <Compile Include="SWSPET\Model\Phone.cs" />
+    <Compile Include="SWSPET\Model\TrackData.cs" />
+    <Compile Include="SWSPET\Model\TrackItem.cs" />
+    <Compile Include="SWSPET\Model\Website.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\WinControls\BaseTextBox.resx">
+      <DependentUpon>BaseTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WinControls\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WinControls\MainFormDataEntry.resx">
+      <DependentUpon>MainFormDataEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WinControls\ObjectSelection.resx">
+      <DependentUpon>ObjectSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WinControls\ObjectSelectionList.resx">
+      <DependentUpon>ObjectSelectionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WinControls\PersonInstantEdit.resx">
+      <DependentUpon>PersonInstantEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WinControls\UIPart.resx">
+      <DependentUpon>UIPart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\ContactGrid.resx">
+      <DependentUpon>ContactGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\ContactListUI.resx">
+      <DependentUpon>ContactListUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\Editor.resx">
+      <DependentUpon>Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\EditorForm.resx">
+      <DependentUpon>EditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\InstantAddNewContact.resx">
+      <DependentUpon>InstantAddNewContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\LinkDialog.resx">
+      <DependentUpon>LinkDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\PersonUI.resx">
+      <DependentUpon>PersonUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\Recent Contacts.resx">
+      <DependentUpon>Recent Contacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\SearchDialog.resx">
+      <DependentUpon>SearchDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\ShowEmailUI.resx">
+      <DependentUpon>ShowEmailUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWSPET\Control\TextInsertForm.resx">
+      <DependentUpon>TextInsertForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ACRODISTXLib">
+      <Guid>{317DA881-ECC5-11D1-B976-00600802DB86}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backcolor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cj.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fj.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indent.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lj.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outdent.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_arrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rj.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underscore.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uol.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_64.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_83.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

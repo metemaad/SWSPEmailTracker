@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79A4C475-2290-4A5F-8128-B76671FC7B7E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SWSPEmailTracker</RootNamespace>
+    <AssemblyName>SWSPEmailTracker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\swsp\Desktop\WebSite\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon %285%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5173B7F51664DBCD53C3170FCF9E69614C8F0747</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SWSPEmailTracker_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SWSPEmailTracker.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>.\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=1.3.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL" />
+    <Reference Include="GvS.Controls.HtmlTextbox">
+      <HintPath>..\..\..\Users\swsp\Desktop\New Folder\GvS.Controls.HtmlTextbox\GvS.Controls.HtmlTextbox\bin\Debug\GvS.Controls.HtmlTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ModelEditControl">
+      <HintPath>..\..\..\Users\swsp\Desktop\ئخيثمفثطف\ModelTextHtml\ModelEditControl.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.6.5\Assemblies\v4.0\MySql.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\MIKiosk\MIKiosk.BusinessLayer\bin\Debug\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenPop">
+      <HintPath>..\..\Users\mhm\Downloads\Compressed\OpenPop.NET 2.0.4\OpenPop.NET 2.0.4\binaries\unsigned\OpenPop.dll</HintPath>
+    </Reference>
+    <Reference Include="SWSPEmailTracker.web">
+      <HintPath>..\SWSPEmailTracker.web\bin\Debug\SWSPEmailTracker.web.dll</HintPath>
+    </Reference>
+    <Reference Include="SWSPET.BL">
+      <HintPath>..\SWSPET.BL\bin\Debug\SWSPET.BL.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadChart, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadMarkupEditor, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RichTextBox, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddPersonLigth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPersonLigth.Designer.cs">
+      <DependentUpon>AddPersonLigth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocumentInfoControl.designer.cs">
+      <DependentUpon>DocumentInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageTemplateManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageTemplateManager.Designer.cs">
+      <DependentUpon>ImageTemplateManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportContact.Designer.cs">
+      <DependentUpon>ImportContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lastTrackData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lastTrackData.Designer.cs">
+      <DependentUpon>lastTrackData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkTemplateManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinkTemplateManager.Designer.cs">
+      <DependentUpon>LinkTemplateManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonTrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonTrack.Designer.cs">
+      <DependentUpon>PersonTrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateManagerEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateManagerEditor.designer.cs">
+      <DependentUpon>TemplateManagerEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonContacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonContacts.Designer.cs">
+      <DependentUpon>PersonContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pop3test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pop3test.Designer.cs">
+      <DependentUpon>pop3test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendingMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendingMail.Designer.cs">
+      <DependentUpon>SendingMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowEmail.Designer.cs">
+      <DependentUpon>ShowEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateManager.Designer.cs">
+      <DependentUpon>TemplateManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="webpage\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="webpage\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddPersonLigth.resx">
+      <DependentUpon>AddPersonLigth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentInfoControl.resx">
+      <DependentUpon>DocumentInfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageTemplateManager.resx">
+      <DependentUpon>ImageTemplateManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportContact.resx">
+      <DependentUpon>ImportContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lastTrackData.resx">
+      <DependentUpon>lastTrackData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinkTemplateManager.resx">
+      <DependentUpon>LinkTemplateManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonTrack.resx">
+      <DependentUpon>PersonTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateManagerEditor.resx">
+      <DependentUpon>TemplateManagerEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonContacts.resx">
+      <DependentUpon>PersonContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pop3test.resx">
+      <DependentUpon>pop3test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SendingMail.resx">
+      <DependentUpon>SendingMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowEmail.resx">
+      <DependentUpon>ShowEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateManager.resx">
+      <DependentUpon>TemplateManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\RichTextBox for WinForms Beta.docx" />
+    <None Include="Resources\RichTextBox_Overview.docx" />
+    <None Include="SWSPEmailTracker_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon %285%29.ico" />
+    <Content Include="HTMLPage1.htm" />
+    <Content Include="HTMLPage2.htm" />
+    <Content Include="IMG\contacts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\important.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\intrested.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\loction.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\reademail.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\track.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IMG\unreademail.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="webpage\contact.html" />
+    <Content Include="webpage\HTMLPage1.htm" />
+    <Content Include="webpage\index.html" />
+    <Content Include="webpage\Stylesheet1.css" />
+    <None Include="Resources\import_icon.png" />
+    <None Include="Resources\aligncenter.png" />
+    <None Include="Resources\alignjustify.png" />
+    <None Include="Resources\alignleft.png" />
+    <None Include="Resources\alignright.png" />
+    <None Include="Resources\bold.png" />
+    <None Include="Resources\ClearFormatting16.png" />
+    <None Include="Resources\copy.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\DocumentInfo.png" />
+    <None Include="Resources\EnableSpellCheck.png" />
+    <None Include="Resources\exit1.png" />
+    <None Include="Resources\font-decreasesize.png" />
+    <None Include="Resources\fontcolor.png" />
+    <None Include="Resources\font-increasesize.png" />
+    <None Include="Resources\formatting-symbols.png" />
+    <None Include="Resources\highlight.png" />
+    <None Include="Resources\Html.png" />
+    <None Include="Resources\indent.png" />
+    <None Include="Resources\italic.png" />
+    <None Include="Resources\list-bullets.png" />
+    <None Include="Resources\list-numbered.png" />
+    <None Include="Resources\MultilevelList.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\outdent.png" />
+    <None Include="Resources\PageMarginModerate.png" />
+    <None Include="Resources\PageMarginNarrow.png" />
+    <None Include="Resources\PageMarginNormal.png" />
+    <None Include="Resources\PageOrientationLandscape.png" />
+    <None Include="Resources\PageOrientationPortrait.png" />
+    <None Include="Resources\PageOrientationRotate180.png" />
+    <None Include="Resources\PageOrientationRotate270.png" />
+    <None Include="Resources\PageSize.png" />
+    <None Include="Resources\ParagraphBackgroundColor.png" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\Pdf.png" />
+    <None Include="Resources\PlainText.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\Rtf.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\save1.png" />
+    <None Include="Resources\save-as1.png" />
+    <None Include="Resources\Strikethrough16.png" />
+    <None Include="Resources\subscript.png" />
+    <None Include="Resources\superscript.png" />
+    <None Include="Resources\underline.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\worddoc.png" />
+    <None Include="Resources\Xaml.png" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_09.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_05.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_07.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_16.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_17.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_18.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_21.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_52.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_34.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_19.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_31.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_091.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_051.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_071.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_32.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_181.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_171.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_191.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_182.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_172.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_93.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_92.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_521.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_28.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_173.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_183.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_76.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_20.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_39.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_83.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_87.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_24.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_211.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_41.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_79.jpg" />
+    <None Include="Resources\SWSPETSYSTEMSTYLE1_61.jpg" />
+    <Content Include="TextFile1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SWSPVCard\SWSPVCard.csproj">
+      <Project>{B38AC437-FB9E-4F7E-82CE-BFEC36A7A908}</Project>
+      <Name>SWSPVCard</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="MySql.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.GridView">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.RadChart">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.RadDock">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.RadMarkupEditor">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.RichTextBox">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="TelerikCommon">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

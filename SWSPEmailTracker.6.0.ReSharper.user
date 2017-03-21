@@ -1,0 +1,608 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:ImageTrack.cs" caret="549" fromTop="19" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:SWSPETl/d:Model/f:TrackData.cs" caret="469" fromTop="16" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Mapping/f:EmailMap.cs" caret="542" fromTop="19" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:pop3test.cs" caret="5870" fromTop="0" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Mapping/f:FinalRecipientMap.cs" caret="173" fromTop="6" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:EmailFailedDeliveryStatus.cs" caret="962" fromTop="26" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:emlreader/f:QuotedPrintable.cs" caret="7830" fromTop="220" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:emlreader/f:RxMailMessage.cs" caret="13344" fromTop="5" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:emlreader/f:MimeReader.cs" caret="6085" fromTop="9" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Controls/d:WinControls/f:IUIPart.cs" caret="73" fromTop="2" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Controls/d:WinControls/f:UIPart.designer.cs" caret="956" fromTop="2" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Controls/d:WinControls/f:ObjectSelection.designer.cs" caret="4304" fromTop="7" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Controls/f:EntityFormService.cs" caret="5555" fromTop="166" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Loging/d:Model/f:LogData.cs" caret="428" fromTop="18" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:Form1.cs" caret="11822" fromTop="17" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactListUI.Designer.cs" caret="954" fromTop="8" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactGrid.Designer.cs" caret="1131" fromTop="16" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Email.cs" caret="660" fromTop="19" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:PersonUI.Designer.cs" caret="15189" fromTop="16" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:PersonUI.cs" caret="1196" fromTop="18" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactListUI.cs" caret="1050" fromTop="38" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Person.cs" caret="3175" fromTop="19" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:DataAccess.cs" caret="307" fromTop="9" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactGrid.cs" caret="1034" fromTop="12" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Infrastructure/f:DataAccess.cs" caret="4505" fromTop="4" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:SendingMail.cs" caret="1680" fromTop="14" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:ImportContact.cs" caret="2552" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="0" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage1.htm" caret="7566" fromTop="19" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:App.config" caret="421" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:PersonUI.Designer.cs" caret="15189" fromTop="16" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Email.cs" caret="314" fromTop="12" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Email.cs" caret="660" fromTop="19" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactGrid.cs" caret="2013" fromTop="23" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactGrid.Designer.cs" caret="1131" fromTop="16" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Person.cs" caret="3423" fromTop="31" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Person.cs" caret="3370" fromTop="30" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Person.cs" caret="3397" fromTop="28" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Person.cs" caret="5001" fromTop="19" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Person.cs" caret="3175" fromTop="19" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactGrid.cs" caret="2158" fromTop="11" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:ContactGrid.cs" caret="1034" fromTop="12" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="19" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="9" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:App.config" caret="517" fromTop="10" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="18" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="26" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="29" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="37" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="29" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="17" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="24" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="9" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="105" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="18" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="4" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="124" fromTop="4" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="11838" fromTop="18" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="0" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="MySQLConfiguration`0" priority="32" />
+      <Item value="var" priority="1087" />
+      <Item value="DataAccess`0" priority="375" />
+      <Item value="new" priority="831" />
+      <Item value="User" priority="29" />
+      <Item value="u" priority="159" />
+      <Item value="public" priority="791" />
+      <Item value="return" priority="959" />
+      <Item value="i" priority="319" />
+      <Item value="string" priority="1244" />
+      <Item value="tit" priority="31" />
+      <Item value="Dictionary" priority="119" />
+      <Item value="object" priority="192" />
+      <Item value="dictionary" priority="64" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="28" />
+      <Item value="foreach" priority="415" />
+      <Item value="sender" priority="31" />
+      <Item value="o" priority="159" />
+      <Item value="virtual" priority="543" />
+      <Item value="GetHashCode`0" priority="63" />
+      <Item value="SetOldv`0" priority="63" />
+      <Item value="Website" priority="61" />
+      <Item value="Organization" priority="61" />
+      <Item value="Address" priority="61" />
+      <Item value="Phone" priority="61" />
+      <Item value="Entity`0" priority="287" />
+      <Item value="PersonMap`0" priority="31" />
+      <Item value="Id`0" priority="31" />
+      <Item value="x" priority="702" />
+      <Item value="Map`0" priority="63" />
+      <Item value="Email`0" priority="186" />
+      <Item value="bool" priority="95" />
+      <Item value="this" priority="95" />
+      <Item value="ImportContact" priority="29" />
+      <Item value="impconui" priority="31" />
+      <Item value="if" priority="415" />
+      <Item value="openFileDialog1" priority="63" />
+      <Item value="StreamReader" priority="57" />
+      <Item value="path" priority="31" />
+      <Item value="while" priority="31" />
+      <Item value="sr" priority="94" />
+      <Item value="false" priority="190" />
+      <Item value="cl" priority="31" />
+      <Item value="Person" priority="541" />
+      <Item value="s" priority="1944" />
+      <Item value="persons" priority="191" />
+      <Item value="Email" priority="28" />
+      <Item value="email1" priority="63" />
+      <Item value="IM" priority="28" />
+      <Item value="Type" priority="159" />
+      <Item value="Value" priority="98" />
+      <Item value="Service" priority="32" />
+      <Item value="sealed" priority="31" />
+      <Item value="Formatted" priority="32" />
+      <Item value="Street" priority="32" />
+      <Item value="City" priority="32" />
+      <Item value="POBox" priority="32" />
+      <Item value="Region" priority="32" />
+      <Item value="PostalCode" priority="32" />
+      <Item value="Country" priority="32" />
+      <Item value="ExtendedAddress" priority="32" />
+      <Item value="Name" priority="64" />
+      <Item value="YomiName" priority="32" />
+      <Item value="Title" priority="64" />
+      <Item value="Department" priority="32" />
+      <Item value="Symbol" priority="32" />
+      <Item value="Location" priority="32" />
+      <Item value="JobDescription" priority="32" />
+      <Item value="int" priority="223" />
+      <Item value="Application`0" priority="95" />
+      <Item value="Website`0" priority="31" />
+      <Item value="DateTime" priority="32" />
+      <Item value="TrackData" priority="29" />
+      <Item value="t" priority="191" />
+      <Item value="DateTime`0" priority="31" />
+      <Item value="TrackData`0" priority="63" />
+      <Item value="SessionID" priority="32" />
+      <Item value="true" priority="223" />
+      <Item value="NHibernate" priority="63" />
+      <Item value="Infrastructure" priority="296" />
+      <Item value="SWSPEmailTracker" priority="63" />
+      <Item value="web" priority="26" />
+      <Item value="IFeatureSupport`0" priority="63" />
+      <Item value="Stream`0" priority="30" />
+      <Item value="String`0" priority="30" />
+      <Item value="Length" priority="80" />
+      <Item value="for" priority="31" />
+      <Item value="try" priority="63" />
+      <Item value="textBox1" priority="31" />
+      <Item value="textBox2" priority="63" />
+      <Item value="stringResponse" priority="31" />
+      <Item value="MessageBox`0" priority="95" />
+      <Item value="sendmail`0" priority="31" />
+      <Item value="SendingMail`0" priority="31" />
+      <Item value="richTextBox1" priority="31" />
+      <Item value="else" priority="63" />
+      <Item value="Id" priority="95" />
+      <Item value="ImageTrack`0" priority="31" />
+      <Item value="it" priority="63" />
+      <Item value="LinkTrack" priority="29" />
+      <Item value="SWSPET" priority="570" />
+      <Item value="BL" priority="242" />
+      <Item value="override" priority="95" />
+      <Item value="TrackItem`0" priority="127" />
+      <Item value="null" priority="31" />
+      <Item value="g" priority="31" />
+      <Item value="key" priority="31" />
+      <Item value="ls" priority="31" />
+      <Item value="email" priority="542" />
+      <Item value="Person`0" priority="370" />
+      <Item value="person" priority="129" />
+      <Item value="catch" priority="31" />
+      <Item value="e" priority="63" />
+      <Item value="baseGridView1" priority="255" />
+      <Item value="TrackGRPData`0" priority="32" />
+      <Item value="a" priority="543" />
+      <Item value="Exception`0" priority="63" />
+      <Item value="q1" priority="31" />
+      <Item value="using" priority="94" />
+      <Item value="SWSPET.BL" priority="30" />
+      <Item value="ReceiveMails`0" priority="31" />
+      <Item value="EnvironmentVariableTarget`0" priority="31" />
+      <Item value="pop3Client" priority="127" />
+      <Item value="Pop3Client`0" priority="31" />
+      <Item value="Pop3Client" priority="29" />
+      <Item value="pop3test`0" priority="31" />
+      <Item value="message" priority="415" />
+      <Item value="StreamReader`0" priority="31" />
+      <Item value="stream" priority="31" />
+      <Item value="MainMenuStrip" priority="31" />
+      <Item value="bytes" priority="63" />
+      <Item value="System" priority="31" />
+      <Item value="Net" priority="26" />
+      <Item value="Mime" priority="26" />
+      <Item value="ContentType`0" priority="26" />
+      <Item value="sitem" priority="127" />
+      <Item value="switch" priority="31" />
+      <Item value="case" priority="191" />
+      <Item value="break" priority="223" />
+      <Item value="default" priority="31" />
+      <Item value="rr" priority="63" />
+      <Item value="EmailFailedDeliveryStatus`0" priority="63" />
+      <Item value="References`1" priority="63" />
+      <Item value="FinalRecipient" priority="28" />
+      <Item value="fr" priority="127" />
+      <Item value="EmailFailedDeliveryStatus" priority="160" />
+      <Item value="Mapping" priority="26" />
+      <Item value="Model" priority="107" />
+      <Item value="upsatestat" priority="63" />
+      <Item value="s1" priority="31" />
+      <Item value="ex" priority="31" />
+      <Item value="finally" priority="31" />
+      <Item value="continue" priority="31" />
+      <Item value="emaildic" priority="63" />
+      <Item value="Str`0" priority="63" />
+      <Item value="e1" priority="31" />
+      <Item value="dict" priority="127" />
+      <Item value="set" priority="32" />
+      <Item value="Va" priority="63" />
+      <Item value="InRowChangingEventException`0" priority="31" />
+      <Item value="radProgressBar1" priority="63" />
+      <Item value="max" priority="63" />
+      <Item value="ToList`0" priority="28" />
+      <Item value="Trackname`0" priority="32" />
+      <Item value="FamilyName" priority="31" />
+      <Item value="l" priority="63" />
+      <Item value="bindingSource1" priority="63" />
+      <Item value="value" priority="31" />
+      <Item value="typeof" priority="63" />
+      <Item value="ContactGrid" priority="28" />
+      <Item value="NewPerson" priority="63" />
+      <Item value="EditPerson" priority="31" />
+      <Item value="radPanel1" priority="63" />
+      <Item value="PersonUI" priority="28" />
+      <Item value="PersonContacts" priority="29" />
+      <Item value="DockStyle`0" priority="31" />
+      <Item value="ObjectInstance" priority="31" />
+      <Item value="updateGrid`0" priority="31" />
+      <Item value="toolStripTextBox1" priority="31" />
+      <Item value="Emails" priority="31" />
+      <Item value="DataGridViewRowErrorTextNeededEventArgs`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FluentNHibernate.Cfg.Db.MySQLConfiguration">
+      <Item value="Standard" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.Db.MySQLConfiguration">
+      <Item value="ConnectionString`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SWSPET.BL.Infrastructure.DataAccess">
+      <Item value="NhSession" priority="323" />
+      <Item value="CreateDatabase`0" priority="80" />
+      <Item value="UpdateDatabase`0" priority="108" />
+      <Item value="Flush`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="QueryOver`1" priority="216" />
+      <Item value="Query`1" priority="53" />
+      <Item value="Flush`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList`1" priority="296" />
+      <Item value="Where`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.Login.Model.User">
+      <Item value="FirstName" priority="26" />
+      <Item value="LastName" priority="26" />
+      <Item value="UserName" priority="26" />
+      <Item value="PasswordHash" priority="26" />
+      <Item value="Persist`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="tr" priority="5" />
+      <Item value="td" priority="5" />
+      <Item value="div" priority="35" />
+      <Item value="dir" priority="5" />
+      <Item value="ltr" priority="5" />
+      <Item value="style" priority="50" />
+      <Item value="position" priority="6" />
+      <Item value="float" priority="8" />
+      <Item value="br" priority="5" />
+      <Item value="width" priority="6" />
+      <Item value="alt" priority="5" />
+      <Item value="img" priority="5" />
+      <Item value="src" priority="5" />
+      <Item value="margin" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="position" priority="0" />
+      <Item value="float" priority="0" />
+      <Item value="width" priority="0" />
+      <Item value="silver" priority="5" />
+      <Item value="margin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="138" />
+      <Item value="Contains`1" priority="26" />
+      <Item value="Any`1" priority="26" />
+      <Item value="ContainsKey`0" priority="53" />
+      <Item value="Count" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="53" />
+      <Item value="Key" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Person">
+      <Item value="Phones" priority="107" />
+      <Item value="Id" priority="53" />
+      <Item value="Name" priority="107" />
+      <Item value="GivenName" priority="134" />
+      <Item value="AdditionalName" priority="53" />
+      <Item value="FamilyName" priority="107" />
+      <Item value="YomiName" priority="53" />
+      <Item value="GivenNameYomi" priority="53" />
+      <Item value="AdditionalNameYomi" priority="53" />
+      <Item value="FamilyNameYomi" priority="53" />
+      <Item value="NamePrefix" priority="53" />
+      <Item value="NameSuffix" priority="53" />
+      <Item value="Initials" priority="53" />
+      <Item value="Nickname" priority="53" />
+      <Item value="ShortName" priority="53" />
+      <Item value="Birthday" priority="53" />
+      <Item value="Gender" priority="53" />
+      <Item value="Location" priority="53" />
+      <Item value="BillingInformation" priority="53" />
+      <Item value="Mileage" priority="53" />
+      <Item value="MaidenName" priority="53" />
+      <Item value="DirectoryServer" priority="53" />
+      <Item value="Occupation" priority="53" />
+      <Item value="Hobby" priority="53" />
+      <Item value="Sensitivity" priority="53" />
+      <Item value="Priority" priority="53" />
+      <Item value="Subject" priority="53" />
+      <Item value="Notes" priority="53" />
+      <Item value="GroupMembership" priority="53" />
+      <Item value="IMs" priority="80" />
+      <Item value="Addresses" priority="80" />
+      <Item value="Websites" priority="80" />
+      <Item value="Emails" priority="215" />
+      <Item value="Organizations" priority="53" />
+      <Item value="Persist`0" priority="26" />
+      <Item value="Descriptor" priority="26" />
+      <Item value="Hasemail" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Address">
+      <Item value="City" priority="26" />
+      <Item value="Country" priority="26" />
+      <Item value="ExtendedAddress" priority="26" />
+      <Item value="Formatted" priority="26" />
+      <Item value="Id" priority="26" />
+      <Item value="POBox" priority="26" />
+      <Item value="PostalCode" priority="26" />
+      <Item value="Region" priority="26" />
+      <Item value="Street" priority="26" />
+      <Item value="Type" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Phone">
+      <Item value="Type" priority="26" />
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Email">
+      <Item value="IsPrimery" priority="26" />
+      <Item value="Type" priority="26" />
+      <Item value="Value" priority="431" />
+      <Item value="EmailFailedDeliveryStatus" priority="53" />
+      <Item value="Persist`0" priority="80" />
+      <Item value="IsValid" priority="134" />
+      <Item value="Person" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.Form1">
+      <Item value="Close`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.ImportContact">
+      <Item value="ShowDialog`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="FileName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="EndOfStream" priority="26" />
+      <Item value="ReadLine`0" priority="26" />
+      <Item value="ReadToEnd`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="80" />
+      <Item value="Contains`0" priority="161" />
+      <Item value="StartsWith`0" priority="26" />
+      <Item value="Replace`0" priority="26" />
+      <Item value="Trim`0" priority="215" />
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Clear`0" priority="161" />
+      <Item value="Add`0" priority="167" />
+      <Item value="Count" priority="54" />
+      <Item value="ToList`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadRepeatButton">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="DoEvents`0" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.TrackData">
+      <Item value="DateTime" priority="54" />
+      <Item value="VisitorIP" priority="53" />
+      <Item value="TrackID" priority="53" />
+      <Item value="VisitorID" priority="53" />
+      <Item value="Desc" priority="26" />
+      <Item value="Persist`0" priority="26" />
+      <Item value="SessionID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPET.Model.TrackData">
+      <Item value="TrackID" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.SendingMail">
+      <Item value="ShowDialog`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.ImageTrack">
+      <Item value="Title" priority="53" />
+      <Item value="Persist`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Where`1" priority="189" />
+      <Item value="Count" priority="135" />
+      <Item value="First`1" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.TrackItem">
+      <Item value="TrackTitle" priority="80" />
+      <Item value="Id" priority="26" />
+      <Item value="TrackId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="First`1" priority="26" />
+      <Item value="ToList`1" priority="134" />
+      <Item value="OrderByDescending`2" priority="26" />
+      <Item value="Select`2" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IGrouping`2">
+      <Item value="Key" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.Controls.WinControls.BaseGridView">
+      <Item value="SelectedRows" priority="53" />
+      <Item value="DataSource" priority="81" />
+      <Item value="InitilizeGrid`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="DataBoundItem" priority="80" />
+      <Item value="Cells" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPET.Model.TrackGRPData">
+      <Item value="TrackID" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCell">
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadProgressBar">
+      <Item value="Value1" priority="53" />
+      <Item value="Text" priority="26" />
+      <Item value="Maximum" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.pop3test">
+      <Item value="ShowDialog`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Mime.Message">
+      <Item value="RawMessage" priority="107" />
+      <Item value="MessagePart" priority="188" />
+      <Item value="FindFirstPlainTextVersion`0" priority="26" />
+      <Item value="FindAllAttachments`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Mime.MessagePart">
+      <Item value="Body" priority="80" />
+      <Item value="MessageParts" priority="134" />
+      <Item value="IsMultiPart" priority="26" />
+      <Item value="ContentType" priority="26" />
+      <Item value="GetBodyAsText`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.emlreader.MimeReader">
+      <Item value="GetEmail`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mime.ContentType">
+      <Item value="Name" priority="26" />
+      <Item value="MediaType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.EmailFailedDeliveryStatus">
+      <Item value="Action" priority="53" />
+      <Item value="ArrivalDate" priority="53" />
+      <Item value="DiagnosticCode" priority="53" />
+      <Item value="FinalRecipient" priority="80" />
+      <Item value="LastAttemptDate" priority="53" />
+      <Item value="ReceivedFromMTA" priority="53" />
+      <Item value="RemoteMTA" priority="53" />
+      <Item value="ReportingMTA" priority="53" />
+      <Item value="Status" priority="53" />
+      <Item value="Persist`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.FinalRecipient">
+      <Item value="ReceivedFromEmail" priority="80" />
+      <Item value="Type" priority="53" />
+      <Item value="Persist`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyPart">
+      <Item value="Default`0" priority="26" />
+      <Item value="Length`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Pop3.Pop3Client">
+      <Item value="DeleteMessage`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPETl.Model.TrackData">
+      <Item value="DateTime" priority="26" />
+      <Item value="VisitorIP" priority="53" />
+      <Item value="VisitorID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.BindingSource">
+      <Item value="DataSource" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Control.ContactListUI">
+      <Item value="radPanel1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadPanel">
+      <Item value="Controls" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Clear`0" priority="53" />
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Control.ContactGrid">
+      <Item value="NewPerson" priority="26" />
+      <Item value="EditPerson" priority="26" />
+      <Item value="Load" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Control.PersonUI">
+      <Item value="ObjectInstance" priority="26" />
+      <Item value="SavePerson" priority="26" />
+      <Item value="Dock" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.PersonContacts">
+      <Item value="ShowDialog`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DockStyle">
+      <Item value="Fill" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripTextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<configuration>
+  <connectionStrings>
+
+    <add name="SWSPEmailServiceLink" connectionString="http://www.cnwtc.co/webmail"/>
+    <add name="SWSPDB" connectionString="Server=SWSP-PC\A1; Database=SWSPEmailTracker; Uid=sa; Pwd=ha1487606;" providerName="System.Data.SqlClient"/>
+
+    <add name="SWSPDBWeb" connectionString="Server=mail.smartwsp.com; Port=3306; Database=cnwtccoEmailTracker; Uid=cnwtccoETSUSR; Pwd=ZezC5ppr;default command timeout=200000;" providerName="System.Data.SqlClient"/>
+    
+    <!--<add name="SWSPDBWeb" connectionString="Server=SWSP-PC\A1; Database=SWSPweb; Uid=sa; Pwd=ha1487606;"                                                                      providerName="System.Data.SqlClient"/>-->
+    <!--<add name="SWSPDB" connectionString="Server=SWSP-PC\A1; Database=SWSPEmailTracker; Uid=sa; Pwd=ha1487606;" providerName="System.Data.SqlClient"/>
+
+    <add name="SWSPDBWeb" connectionString="Server=mail.smartwsp.com; Port=3306; 
+              Database=SWSPEmailTracker; Uid=SWSPMail; Pwd=7qaTVZG6;" providerName="System.Data.SqlClient"/>-->
+
+  </connectionStrings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>
+<!--
+return Fluently.Configure()
+        .Database(MySQLConfiguration.Standard
+            .Dialect<CustomDialect>()
+            .ConnectionString(x => x.FromConnectionStringWithKey("SomeDatabase")))
+        .Cache(c => c
+            .UseQueryCache()
+            .ProviderClass<HashtableCacheProvider>())
+        .Mappings(m => m.FluentMappings.AddFromAssemblyOf<IHaveFluentMappings>()
+            .Conventions.Add(ForeignKey.EndsWith("Id")))
+        .ExposeConfiguration(BuildConfiguration).BuildConfiguration();
+        
+-->

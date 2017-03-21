@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="aligncenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aligncenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_183.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_172" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_172.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_76.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_92" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_92.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_182.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageMarginModerate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageMarginModerate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_171.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageMarginNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageMarginNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fontcolor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fontcolor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TemplateManager_TemplateManager_Load_the_system_will_try_to_fetch_data_from_your_server__so_be_patient_" xml:space="preserve">
+    <value>the system will try to fetch data from your server, so be patient.</value>
+  </data>
+  <data name="PageMarginNarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageMarginNarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superscript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\superscript.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subscript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subscript.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="worddoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\worddoc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outdent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outdent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_181.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_071.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_increasesize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-increasesize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocumentInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocumentInfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RichTextBox_for_WinForms_Beta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RichTextBox for WinForms Beta.docx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PageOrientationLandscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageOrientationLandscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Strikethrough16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Strikethrough16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_173" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_173.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EnableSpellCheck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnableSpellCheck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xaml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Xaml.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prantez_open" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_211.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageOrientationRotate180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageOrientationRotate180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alignleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alignleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RichTextBox_Overview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RichTextBox_Overview.docx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_83.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_as1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save-as1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_87.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_521.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alignright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alignright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font_decreasesize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-decreasesize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageOrientationPortrait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageOrientationPortrait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageOrientationRotate270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageOrientationRotate270.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rtf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rtf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClearFormatting16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClearFormatting16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alignjustify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alignjustify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewLine" xml:space="preserve">
+    <value>
+</value>
+  </data>
+  <data name="list_bullets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list-bullets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_79.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MultilevelList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MultilevelList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prantez_close" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="list_numbered" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list-numbered.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_091.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_191.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\highlight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageSize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageSize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formatting_symbols" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formatting-symbols.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_93.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Html" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Html.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParagraphBackgroundColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ParagraphBackgroundColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWSPETSYSTEMSTYLE1_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWSPETSYSTEMSTYLE1_61.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

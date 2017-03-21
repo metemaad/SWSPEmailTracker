@@ -1,0 +1,173 @@
+﻿<table dir="rtl" style="width: 100%;" bgcolor="Honeydew" cellpadding="0" cellspacing="0">
+        <tr dir="rtl">
+            <td colspan="2"  style="text-align: center;">
+                <span style="font-family:B Titr"><strong>شرکت خدمات مسافرتی هوایی و جهانگردی نیل گشت روز، مجری تور
+                    های نمایشگاهی و تخصصی</strong></span> <span style="font-family: B Titr"><strong>گروه علمی صنعتی تجاری
+                        بازدید از نمایشگاه بزرگ تخصصی و بین المللی تجهیزات پزشکی، بیمارستانی و آزمایشگاهی
+                        شنزن - چین</strong></span>
+                <br />
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-family: B Titr;             text-align: center;">
+            <div colspan="2" style="width: 100%">
+            <div>
+                بزرگترین نمایشگاه لوازم پزشکی و بیمارستانی و آزمایشگاهی در آسیا (شنزن چین) <br/><strong>بهمراه
+                    تور تفریحی بازدید از شهر شنزن 24 فروردین الی 1 اردیبهشت 1392 </strong>
+                    </div>
+                    <div style=" float: left;">    <img src="http://www.smartwsp.com/webmail/f1.php"/></div>
+
+                    </div>
+                <hr />
+
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top">
+                <div style="border: 1px solid #000080; padding:5px; margin:5px; text-align: center; background-color: #FFCCFF;">
+                <p style="font-family: B Titr">
+                    محصولات و اطلاعات نمایشگاه
+                    </p>
+                    <p style="text-align: right;font-family: B Traffic">تجهیزات پیشرفته پزشکی و وسایل مصرفی پزشکی پیرا پزشکی 
+                        آزمایشگاهی تجهیزات بیمارستانی و صنایع پزشکی دارویی و پرستاری</p>
+                    <p style="text-align: right;font-family: B Traffic">این نمایشگاه در محیطی به مساحت 110/000 متر مربع و مشتمل 
+                        بر 5400 غرفه گذار که از بزرگترین و معتبر ترین کارخانجات صنایع پزشکی کشور چین و 
+                        همچنین از 16 کشور جهان از جمله برزسل ، آلمان ، فنلاند ، ژاپن ، کره ، استرالیا، 
+                        اسپانیا، انگلستان ف آمریکا و ... برگزار می گردد و بالغ بر 60/000 بازدید کننده 
+                        دارد.</p>
+                    <p style="text-align: left;"><a href="en.cmef.com.cn">http://en.cmef.com.cn</a> </p>
+                    <br />
+
+                </div>
+                <div style="border: 1px solid #000080; padding:5px; margin:5px; text-align: center; background-color: #FFCCFF;">
+                <p style="font-family: B Titr">
+                    خدمات تور</p>
+                    <ul>
+                        <li>
+                            <p style="text-align: right; font-family: B Traffic">
+                                راهنمای محلی چینی و فارسی زبان</p>
+                        </li>
+                        <li>
+                            <p style="text-align: right; font-family: B Traffic">
+                                سفر 8 روز و 9 شب اقامت در هتل چهار ستاره با صبحانه و ایاب و ذهاب و ترانسفر 
+                                فرودگاهی و نمایشگاهی - 6 شب شنزن</p>
+                        </li>
+                        <li>
+                            <p style="text-align: right;font-family: B Traffic">
+                                بلیط پرواز: تهران - دوحه - هنگ هنگ و بالعکس ) با پرواز 5 ستاره قطری</p>
+                        </li>
+                        <li>
+                            <p style="text-align: right; font-family: B Traffic">
+                                ویزای گروهی چین به همراه تور یک روزه جهت بازدید از مکان های دیدنی در شهر شنزن</p>
+                        </li>
+                    </ul>
+                    <br />
+
+                </div>
+                <div style="border: 1px solid #000080; padding:5px; margin:5px; text-align: center; background-color: #FFCCFF;">
+                    <p style="text-align: right;font-family: B Traffic">هزینه سفر : 490 دلار آمریکا + 1/990/000 
+                        تومان به ازای هر نفر ( در اتاق دو تخته )</p>
+                    <p style="text-align: right;font-family: B Traffic">و اتاق تک تخته 350 دلار افزایش نرخ 
+                        دارد.</p>
+                    <p style="text-align: right;font-family: B Traffic">با توجه به محدود بودن ظرفیت گروه و 
+                        طولانی بودن زمان اخذ دعوتنامه پذیرش از ثبت نام شدگان بر اساس تاریخ تکمیل مدارک 
+                        می باشد.</p>
+                    <p style="text-align: right;font-family: B Traffic">ثبت نام کنندگان تا تاریخ 1391/12/15 
+                        شامل 100/000 تومان تخفیف می باشند.</p>
+
+                </div>
+                
+            </td>
+            <td dir="ltr" style="width: 30%">
+                <div>
+                    <span style=" color: #000066;"><strong>Main product Group   <div text-align: justify; style="margin: 10px">
+                        <br />
+                        <span color: #003366;>Medical image devices; Medical electronics Equipment; Surgical
+                            and emergency treatment devices; Labratory and clinic testing devices; Medical optical
+                            devices; Hospital equpment, nursing and diagnostic devices; Mechanical viscera,
+                            therapy and healing devices Medical designing and manufacturing Ambolances and medical
+                            vehicles; communication and information technology, other services Visitor Profile:
+                            Decision-makers medical Doctors and surgeons, procurement specialist from hospitals;
+                            distributors and agents of medical equipment and devices, technicians, research
+                            insttues, clinical labratories </span>
+                    </div>
+                    <hr />
+                </div>
+                <div style="margin: 5px" dir="rtl">
+                    <span style="font-family: B Traffic"            font-size: x-small;            color: #FF0066;>مدارک مورد نیاز</span><br style="font-family: B Traffic"            font-size: x-small;            color: #FF0066; />
+                    <ul>
+                        <li><span style="font-family: B Traffic"            font-size: x-small;            color: #FF0066;>اصل گذرنامه با حداقل 7 ماه اعتبار به همراه 2 قطعه عکس رنگی
+                            6*4 شبیه پاسپورت</span><br style="font-family: B Traffic"            font-size: x-small;            color: #FF0066; />
+                        </li>
+                        <li><span style="font-family: B Traffic"            font-size: x-small;            color: #FF0066;>پرداخت مبلغ اولیه ثبت نام 1/390/000 تومان به حسابداری شرکت
+                            نیل گشت روز</span><br style="font-family: B Traffic"            font-size: x-small;            color: #FF0066; />
+                        </li>
+                        <li style="font-family: B Traffic"            font-size: x-small;            color: #FF0066;>پر کردن فر ثبت نام و قرارداد</li>
+                    </ul>
+                </diپر کردن فر ثبت نام و قرارداد</li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-family: B Titr";             text-align: center;><hr/>
+                 به همراه مهمانی شام به دعوت یکی از بزرگترین شرکت های صادر کننده<br />
+                لوازم پزشکی کشور چین در ارتباط با صادرات لوازم پزشکی از کشور چین
+            <hr/>
+                <span style=" font-family: Tahoma;            font-size: x-small;">
+                    <br style=" color: #000066;" />
+                    <span style=" color: #000066;">&nbsp; آدرس : چهار راه امیر آباد - بزرگراه جلال آل احمد به سمت
+                        غرب - نرسیده به پل گیشا&nbsp; نبش کوچه جنت پلاک 3</span></span><br style=" font-family: Tahoma;            font-size: x-small;"            style=" color: #000066;" />
+                <span style=" font-family: Tahoma;            font-size: x-small;"            style=" color: #000066;">تلفن : 88015134 021&nbsp;&nbsp;&nbsp;&nbsp; تماس مستقیم : 09127107784
+                    مهندس حامد ضرابی&nbsp;&nbsp;&nbsp;&nbsp; فکس : 88023700 021 </span>
+            </td>
+        </tr>
+        <tr><td colspan="2"  dir="ltr" style="padding: 5px; margin: 5px"><div>
+        <div class="links">
+      <div class="link_1">
+        <div class="font_1">Supporting Medias</div>
+        <div id="demoLeft">
+          <div class="indemo">
+            <div id="demo1"> 
+            
+                         		<a href="#" title="link1_12.jpg"><img src="http://www.cmef.com.cn/picture/1336103716801.jpg" /></a>
+            		<a href="#" title="link1_11.jpg"><img src="http://www.cmef.com.cn/picture/1336103701947.jpg" /></a>
+            		<a href="#" title="link1_10.jpg"><img src="http://www.cmef.com.cn/picture/1336103690046.jpg" /></a>
+            		<a href="#" title="link1_9.gif"><img src="http://www.cmef.com.cn/picture/1336103680733.gif" /></a>
+            		<a href="#" title="link1_8.jpg"><img src="http://www.cmef.com.cn/picture/1336103672037.jpg" /></a>
+            		<a href="#" title="link1_7.jpg"><img src="http://www.cmef.com.cn/picture/1336103662764.jpg" /></a>
+            		<a href="#" title="link1_6.gif"><img src="http://www.cmef.com.cn/picture/1336103650243.gif" /></a>
+            		<a href="#" title="link1_5.gif"><img src="http://www.cmef.com.cn/picture/1336103639131.gif" /></a>
+            		<a href="#" title="link1_4.png"><img src="http://www.cmef.com.cn/picture/1336103627731.png" /></a>
+            		<a href="#" title="link1_3.jpg"><img src="http://www.cmef.com.cn/picture/1336103592648.jpg" /></a>
+                  
+                   </div>
+          </div>
+        </div>
+      </div>
+      <div class="link_2">
+        <div class="font_1">Reed Sinopharm Exhibition Family</div>
+        <div> 
+        
+            		<a href="#" title="link_2_6.png"><img src="http://www.cmef.com.cn/picture/1336104095465.png" width="120" height="60" /></a>&nbsp;
+            		<a href="#" title="link_2_5.png"><img src="http://www.cmef.com.cn/picture/1336104082120.png" width="120" height="60" /></a>&nbsp;
+            		<a href="#" title="link_2_4.png"><img src="http://www.cmef.com.cn/picture/1336104071403.png" width="120" height="60" /></a>&nbsp;
+            		<a href="#" title="link_2_3.png"><img src="http://www.cmef.com.cn/picture/1336104062121.png" width="120" height="60" /></a>&nbsp;
+            		<a href="#" title="link_2_2.png"><img src="http://www.cmef.com.cn/picture/1336104051862.png" width="120" height="60" /></a>&nbsp;
+            		<a href="#" title="link_2_1.png"><img src="http://www.cmef.com.cn/picture/1336104032334.png" width="120" height="60" /></a>&nbsp;
+         
+         </div>
+      </div>
+      <div class="link_3">
+        <div class="font_1">Co-organizer</div>
+        <div> 
+        
+	        		<a href="#" title="1"><img src="http://www.cmef.com.cn/picture/1360204461821.jpg" width="88"  height="40" /></a>&nbsp;
+	        		<a href="#" title="link_3_2.jpg"><img src="http://www.cmef.com.cn/picture/1336104293479.jpg" width="88"  height="40" /></a>&nbsp;
+	        		<a href="#" title="link_3_1.gif"><img src="http://www.cmef.com.cn/picture/1336104278897.gif" width="88"  height="40" /></a>&nbsp;
+         
+          </div>
+      </div>
+    </div></div></td></tr>
+    </table>

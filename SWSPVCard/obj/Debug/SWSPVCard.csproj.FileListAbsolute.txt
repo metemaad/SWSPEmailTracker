@@ -1,0 +1,8 @@
+C:\projects\SWSPEmailTracker\SWSPVCard\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\SWSPEmailTracker\SWSPVCard\obj\Debug\SWSPVCard.WarningMessages.resources
+C:\projects\SWSPEmailTracker\SWSPVCard\obj\Debug\GenerateResource.read.1.tlog
+C:\projects\SWSPEmailTracker\SWSPVCard\obj\Debug\GenerateResource.write.1.tlog
+C:\projects\SWSPEmailTracker\SWSPVCard\bin\Debug\SWSPVCard.dll
+C:\projects\SWSPEmailTracker\SWSPVCard\bin\Debug\SWSPVCard.pdb
+C:\projects\SWSPEmailTracker\SWSPVCard\obj\Debug\SWSPVCard.dll
+C:\projects\SWSPEmailTracker\SWSPVCard\obj\Debug\SWSPVCard.pdb

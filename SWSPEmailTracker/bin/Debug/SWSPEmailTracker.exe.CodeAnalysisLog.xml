@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\projects\SWSPEmailTracker\SWSPEmailTracker\bin\Debug\SWSPEmailTracker.exe">
+   <Modules>
+    <Module Name="swspemailtracker.exe">
+     <Namespaces>
+      <Namespace Name="SWSPEmailTracker">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Body()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="199">In method 'Form1.Body()', call System.IDisposable.Dispose on object 'sr' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#commandBarButton1_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="1226">In method 'Form1.commandBarButton1_Click_1(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#commandBarButton3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="950">In method 'Form1.commandBarButton3_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#commandBarButton4_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="1173">In method 'Form1.commandBarButton4_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#commandBarButton6_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="1260">In method 'Form1.commandBarButton6_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'a' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#commandBarButton7_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="1266">In method 'Form1.commandBarButton7_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'a' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#commandBarButton8_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="982">In method 'Form1.commandBarButton8_Click_1(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#documentWindow3_Enter(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="1209">In method 'Form1.documentWindow3_Enter(object, EventArgs)', object 'a' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'a' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Form1_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="37">In method 'Form1.Form1_Load(object, EventArgs)', call System.IDisposable.Dispose on object 'sr' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.Designer.cs" Line="44">In method 'Form1.InitializeComponent()', object 'gridViewTextBoxColumn4' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'gridViewTextBoxColumn4' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.Designer.cs" Line="45">In method 'Form1.InitializeComponent()', object 'gridViewTextBoxColumn5' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'gridViewTextBoxColumn5' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.Designer.cs" Line="46">In method 'Form1.InitializeComponent()', object 'gridViewTextBoxColumn6' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'gridViewTextBoxColumn6' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadMenuItem5Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="240">In method 'Form1.RadMenuItem5Click(object, EventArgs)', call System.IDisposable.Dispose on object 'a' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadMenuItem7Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="329">In method 'Form1.RadMenuItem7Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radRepeatButton1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="217">In method 'Form1.radRepeatButton1_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'impconui' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadRepeatButton3Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="229">In method 'Form1.RadRepeatButton3Click(object, EventArgs)', call System.IDisposable.Dispose on object '&lt;&gt;g__initLocalb' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadRepeatButton4Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="223">In method 'Form1.RadRepeatButton4Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sendmail(System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="184">In method 'Form1.sendmail(string, string)', call System.IDisposable.Dispose on object 'client' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="141">In method 'Form1.sendmail(string, string)', call System.IDisposable.Dispose on object 'hash' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="177">In method 'Form1.sendmail(string, string)', call System.IDisposable.Dispose on object 'message' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="167">In method 'Form1.sendmail(string, string)', call System.IDisposable.Dispose on object 'reader' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateSync(System.Boolean,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Form1.cs" Line="793">In method 'Form1.UpdateSync(bool, int)', call System.IDisposable.Dispose on object 'pop3Client' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ImageTemplateManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ByteArrayToImage(System.Byte[])" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImageTemplateManager.cs" Line="25">In method 'ImageTemplateManager.ByteArrayToImage(byte[])', call System.IDisposable.Dispose on object 'ms' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImageToByteArray(System.Drawing.Image)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImageTemplateManager.cs" Line="19">In method 'ImageTemplateManager.ImageToByteArray(Image)', call System.IDisposable.Dispose on object 'ms' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToolStripButton2Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImageTemplateManager.cs" Line="50">In method 'ImageTemplateManager.ToolStripButton2Click(object, EventArgs)', call System.IDisposable.Dispose on object 'ms' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToolStripButton3Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImageTemplateManager.cs" Line="121">In method 'ImageTemplateManager.ToolStripButton3Click(object, EventArgs)', call System.IDisposable.Dispose on object 'ms' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToolStripButton4Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImageTemplateManager.cs" Line="167">In method 'ImageTemplateManager.ToolStripButton4Click(object, EventArgs)', call System.IDisposable.Dispose on object 'ms' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ImportContact" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImportContact.cs" Line="462">In method 'ImportContact.button1_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sr' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImportContact.cs" Line="557">In method 'ImportContact.button2_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sr' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImportContact.cs" Line="693">In method 'ImportContact.button3_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sr' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImportContact.cs" Line="711">In method 'ImportContact.button3_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'srtxt' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radButton1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImportContact.cs" Line="255">In method 'ImportContact.radButton1_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sr' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radRepeatButton1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="ImportContact.cs" Line="42">In method 'ImportContact.radRepeatButton1_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sr' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ImageTrackObjectToolStripMenuItemClick(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="53">In method 'MainForm.ImageTrackObjectToolStripMenuItemClick(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImportToolStripMenuItemClick(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="812">In method 'MainForm.ImportToolStripMenuItemClick(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OpenShowmail()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="862">In method 'MainForm.OpenShowmail()', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PersonFolderToolStripMenuItemClick(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="64">In method 'MainForm.PersonFolderToolStripMenuItemClick(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadButton12Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="832">In method 'MainForm.RadButton12Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radButton15_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="906">In method 'MainForm.radButton15_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'i' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radButton18_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="900">In method 'MainForm.radButton18_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'i' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadButton4Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="818">In method 'MainForm.RadButton4Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadButton5Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="825">In method 'MainForm.RadButton5Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RadButton6Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="404">In method 'MainForm.RadButton6Click(object, EventArgs)', call System.IDisposable.Dispose on object 'a' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radButton7_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="912">In method 'MainForm.radButton7_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SendBulkMailToolStripMenuItemClick(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="70">In method 'MainForm.SendBulkMailToolStripMenuItemClick(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TamplateListToolStripMenuItemClick(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="76">In method 'MainForm.TamplateListToolStripMenuItemClick(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateInboxesSync(System.Boolean,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="MainForm.cs" Line="412">In method 'MainForm.UpdateInboxesSync(bool, int)', call System.IDisposable.Dispose on object 'pop3Client' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="pop3test" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#radRepeatButton1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="pop3test.cs" Line="30">In method 'pop3test.radRepeatButton1_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'pop3Client' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SendingMail" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Loadsearchparam()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="SendingMail.cs" Line="250">In method 'SendingMail.Loadsearchparam()', object '&lt;&gt;g__initLocal19' is not disposed along all exception paths. Call System.IDisposable.Dispose on object '&lt;&gt;g__initLocal19' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radButton1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="SendingMail.cs" Line="144">In method 'SendingMail.radButton1_Click(object, EventArgs)', object 'rdr' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'rdr' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Splash" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Splash_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="Splash.cs" Line="39">In method 'Splash.Splash_Load(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TemplateManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#radButton13_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManager.cs" Line="301">In method 'TemplateManager.radButton13_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'o' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radButton17_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManager.cs" Line="273">In method 'TemplateManager.radButton17_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sw' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToolStripButton11Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManager.cs" Line="162">In method 'TemplateManager.ToolStripButton11Click(object, EventArgs)', call System.IDisposable.Dispose on object 's' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TemplateManagerEditor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AttachSignal()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.cs" Line="115">In method 'TemplateManagerEditor.AttachSignal()', call System.IDisposable.Dispose on object 'mutex' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="33">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem1' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem1' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="42">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem10' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem10' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="43">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem11' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem11' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="44">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem12' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem12' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="45">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem13' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem13' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="46">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem14' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem14' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="47">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem15' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem15' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="48">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem16' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem16' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="34">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem2' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem2' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="35">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem3' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem3' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="36">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem4' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem4' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="37">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem5' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem5' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="38">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem6' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem6' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="39">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem7' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem7' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="40">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem8' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem8' before all references to it are out of scope.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.designer.cs" Line="41">In method 'TemplateManagerEditor.InitializeComponent()', object 'radListDataItem9' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'radListDataItem9' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnLoad(System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.cs" Line="167">In method 'TemplateManagerEditor.OnLoad(EventArgs)', call System.IDisposable.Dispose on object 'font' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radBtnBackColor_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.cs" Line="527">In method 'TemplateManagerEditor.radBtnBackColor_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'colorDialog' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radBtnFontColor_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.cs" Line="357">In method 'TemplateManagerEditor.radBtnFontColor_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'colorDialog' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#radBtnHighlight_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-07-05 18:31:14Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\projects\SWSPEmailTracker\SWSPEmailTracker" File="TemplateManagerEditor.cs" Line="345">In method 'TemplateManagerEditor.radBtnHighlight_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'colorDialog' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="ExceptionEdge">In method {0}, object {1} is not disposed along all exception paths. Call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

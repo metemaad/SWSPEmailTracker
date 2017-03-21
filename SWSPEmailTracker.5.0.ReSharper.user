@@ -1,0 +1,1501 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:IPInfo.cs" caret="3741" fromTop="20" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:Person.cs" caret="3026" fromTop="11" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:TrackData.cs" caret="710" fromTop="1" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Mapping/f:TrackDataMap.cs" caret="430" fromTop="11" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Control/f:InstantAddNewContact.cs" caret="0" fromTop="0" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Controls/d:WinControls/f:PersonInstantEdit.Designer.cs" caret="2120" fromTop="15" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:lastTrackData.cs" caret="2760" fromTop="9" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:Form1.cs" caret="50051" fromTop="15" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:SWSPETl/d:Model/f:LinkTrack.cs" caret="1289" fromTop="12" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:SWSPETl/d:Model/f:EmailTemplate.cs" caret="5008" fromTop="12" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage1.htm" caret="169" fromTop="9" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:Infrastructure/f:Entity.cs" caret="2551" fromTop="10" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:Program.cs" caret="553" fromTop="18" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:Splash.cs" caret="1321" fromTop="18" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:SWSPETl/d:Model/f:TrackData.cs" caret="1023" fromTop="12" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:MainForm.cs" caret="27139" fromTop="10" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:App.config" caret="448" fromTop="6" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:SWSPETl/d:Model/f:TrackImage.cs" caret="3095" fromTop="11" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:ImageTemplateManager.cs" caret="4378" fromTop="10" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="3596" fromTop="10" />
+      <File id="d:Miscellaneous Files/f:Telerik.WinControls.RichTextBox.FormatProviders.Txt.TxtFormatProvider.cs/l:C!?projects?SWSPEmailTracker?_ReSharper.SWSPEmailTracker?DecompilerCache?metadata?Telerik.WinControls.RichTextBox-99b1?Telerik.WinControls.RichTextBox.FormatProviders.Txt.TxtFormatProvider.cs" caret="574" fromTop="10" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:SendingMail.cs" caret="144" fromTop="5" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="4814" fromTop="10" />
+      <File id="d:Miscellaneous Files/f:Telerik.WinControls.RichTextBox.FileFormats.Html.HtmlFormatProvider.cs/l:C!?projects?SWSPEmailTracker?_ReSharper.SWSPEmailTracker?DecompilerCache?metadata?Telerik.WinControls.RichTextBox-99b1?Telerik.WinControls.RichTextBox.FileFormats.Html.HtmlFormatProvider.cs" caret="608" fromTop="9" />
+      <File id="B3880E46-BA14-4E2D-B603-437D3BB12CAD/d:SWSPET/d:Model/f:EmailTemplate.cs" caret="533" fromTop="16" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:TemplateManager.cs" caret="312" fromTop="10" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:index.html" caret="15104" fromTop="16" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:contact.html" caret="12875" fromTop="15" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:Stylesheet1.css" caret="12007" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:HTMLPage1.htm" caret="594" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:Program.cs" caret="553" fromTop="18" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="4461" fromTop="13" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="4215" fromTop="8" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="4905" fromTop="22" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="4983" fromTop="26" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="2422" fromTop="16" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="9588" fromTop="10" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="8833" fromTop="5" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:App.config" caret="448" fromTop="6" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="9197" fromTop="6" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="9153" fromTop="7" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:SWSPETl/d:Model/f:TrackImage.cs" caret="2699" fromTop="16" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="8640" fromTop="7" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="9746" fromTop="23" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="8457" fromTop="21" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="7167" fromTop="1" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:Infrastructure/f:WebDataAccess.cs" caret="8097" fromTop="23" />
+      <File id="822EE12A-2C5F-4FF1-A84D-99D943E0CB82/d:SWSPETl/d:Model/f:TrackImage.cs" caret="2879" fromTop="18" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:SendingMail.cs" caret="14617" fromTop="5" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="2387" fromTop="6" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:HTMLPage2.htm" caret="861" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/f:TemplateManager.cs" caret="312" fromTop="10" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:index.html" caret="15259" fromTop="20" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:index.html" caret="14984" fromTop="14" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:contact.html" caret="13134" fromTop="20" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:contact.html" caret="12875" fromTop="15" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:HTMLPage1.htm" caret="3736" fromTop="29" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:HTMLPage1.htm" caret="0" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:Stylesheet1.css" caret="12007" fromTop="0" />
+      <File id="79A4C475-2290-4A5F-8128-B76671FC7B7E/d:webpage/f:HTMLPage1.htm" caret="410" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="emaildic" priority="2" />
+      <Item value="if" priority="47" />
+      <Item value="int" priority="13" />
+      <Item value="bool" priority="8" />
+      <Item value="TreeNode`0" priority="0" />
+      <Item value="firstrow" priority="1" />
+      <Item value="continue" priority="0" />
+      <Item value="false" priority="23" />
+      <Item value="toolStripProgressBar1" priority="3" />
+      <Item value="true" priority="22" />
+      <Item value="Application`0" priority="20" />
+      <Item value="ReceiveMails`0" priority="0" />
+      <Item value="ProgressBar`0" priority="1" />
+      <Item value="ToolStripProgressBar`0" priority="0" />
+      <Item value="string" priority="86" />
+      <Item value="server" priority="0" />
+      <Item value="loginname" priority="0" />
+      <Item value="password" priority="2" />
+      <Item value="else" priority="23" />
+      <Item value="private" priority="24" />
+      <Item value="void" priority="8" />
+      <Item value="try" priority="15" />
+      <Item value="OpenPop" priority="0" />
+      <Item value="Mime" priority="0" />
+      <Item value="Message`0" priority="1" />
+      <Item value="message" priority="16" />
+      <Item value="partial" priority="0" />
+      <Item value="public" priority="75" />
+      <Item value="IncommingEmail`0" priority="13" />
+      <Item value="foreach" priority="49" />
+      <Item value="var" priority="92" />
+      <Item value="new" priority="101" />
+      <Item value="TrackData" priority="2" />
+      <Item value="trackData" priority="16" />
+      <Item value="td" priority="9" />
+      <Item value="SWSPETl" priority="11" />
+      <Item value="Model" priority="21" />
+      <Item value="SWSPET" priority="31" />
+      <Item value="BL" priority="16" />
+      <Item value="x" priority="25" />
+      <Item value="TrackItem`0" priority="4" />
+      <Item value="trackItem" priority="1" />
+      <Item value="class" priority="6" />
+      <Item value="Entity`0" priority="3" />
+      <Item value="return" priority="32" />
+      <Item value="Person`0" priority="43" />
+      <Item value="References`1" priority="7" />
+      <Item value="visitorlist" priority="1" />
+      <Item value="visitor" priority="0" />
+      <Item value="null" priority="18" />
+      <Item value="ClassMap" priority="2" />
+      <Item value="IPInfoMap`0" priority="0" />
+      <Item value="virtual" priority="46" />
+      <Item value="Id`1" priority="2" />
+      <Item value="Map`0" priority="10" />
+      <Item value="IPInfo`0" priority="8" />
+      <Item value="TrackData`0" priority="21" />
+      <Item value="ip" priority="4" />
+      <Item value="stringResponse" priority="0" />
+      <Item value="ipinfo" priority="3" />
+      <Item value="Infrastructure" priority="12" />
+      <Item value="DataAccess`0" priority="24" />
+      <Item value="country" priority="0" />
+      <Item value="a" priority="38" />
+      <Item value="city" priority="0" />
+      <Item value="lat" priority="0" />
+      <Item value="IP" priority="7" />
+      <Item value="CountryCode" priority="1" />
+      <Item value="CountryName" priority="1" />
+      <Item value="RegionCode" priority="1" />
+      <Item value="responseStream" priority="1" />
+      <Item value="reader" priority="2" />
+      <Item value="doc" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="0" />
+      <Item value="break" priority="1" />
+      <Item value="VARIABLE" priority="11" />
+      <Item value="XmlNode`0" priority="0" />
+      <Item value="catch" priority="13" />
+      <Item value="CookieException`0" priority="0" />
+      <Item value="ipInfo" priority="2" />
+      <Item value="ipl" priority="1" />
+      <Item value="this" priority="13" />
+      <Item value="using" priority="3" />
+      <Item value="list2" priority="1" />
+      <Item value="count" priority="0" />
+      <Item value="_EmailAttachment" priority="0" />
+      <Item value="_emailAttachment" priority="2" />
+      <Item value="IncommingEmailMap`0" priority="0" />
+      <Item value="_BCC" priority="2" />
+      <Item value="EmailAttachment`0" priority="1" />
+      <Item value="EmailAttachmentMap`0" priority="0" />
+      <Item value="iemail" priority="11" />
+      <Item value="BufferedBlockCipher`0" priority="0" />
+      <Item value="bcc" priority="3" />
+      <Item value="personlist" priority="0" />
+      <Item value="Email`0" priority="8" />
+      <Item value="bccfind" priority="2" />
+      <Item value="p" priority="13" />
+      <Item value="displayname" priority="0" />
+      <Item value="e" priority="3" />
+      <Item value="emailaddress" priority="1" />
+      <Item value="email" priority="37" />
+      <Item value="ea" priority="3" />
+      <Item value="part" priority="3" />
+      <Item value="Emaillist" priority="0" />
+      <Item value="person" priority="14" />
+      <Item value="Exception`0" priority="10" />
+      <Item value="exception" priority="13" />
+      <Item value="messagePart" priority="1" />
+      <Item value="ChartSeries`0" priority="0" />
+      <Item value="re" priority="1" />
+      <Item value="res" priority="5" />
+      <Item value="From" priority="0" />
+      <Item value="baseGridView1" priority="9" />
+      <Item value="typeof" priority="4" />
+      <Item value="webBrowser1" priority="0" />
+      <Item value="radRichTextBox1" priority="2" />
+      <Item value="AddingNewEventArgs`0" priority="0" />
+      <Item value="AddNodes`0" priority="0" />
+      <Item value="groupdata" priority="1" />
+      <Item value="PersonTrack`0" priority="3" />
+      <Item value="DateTime`0" priority="7" />
+      <Item value="groupdata5" priority="2" />
+      <Item value="success" priority="0" />
+      <Item value="fail" priority="0" />
+      <Item value="trackupdates" priority="1" />
+      <Item value="mailrecived" priority="0" />
+      <Item value="delay" priority="5" />
+      <Item value="Math`0" priority="0" />
+      <Item value="_name" priority="1" />
+      <Item value="value" priority="1" />
+      <Item value="Socket" priority="2" />
+      <Item value="SocketType`0" priority="2" />
+      <Item value="ProtocolType`0" priority="2" />
+      <Item value="Telnet`0" priority="0" />
+      <Item value="Telnet" priority="0" />
+      <Item value="Socket`0" priority="0" />
+      <Item value="address" priority="11" />
+      <Item value="s" priority="8" />
+      <Item value="port" priority="2" />
+      <Item value="ourMagicClient" priority="0" />
+      <Item value="sock" priority="6" />
+      <Item value="data" priority="2" />
+      <Item value="AddressFamily" priority="2" />
+      <Item value="AddressFamily`0" priority="0" />
+      <Item value="Iso" priority="0" />
+      <Item value="strWorkingData" priority="0" />
+      <Item value="encoding" priority="0" />
+      <Item value="Encoding`0" priority="0" />
+      <Item value="buffer" priority="0" />
+      <Item value="socka" priority="1" />
+      <Item value="sockas" priority="0" />
+      <Item value="telnet" priority="0" />
+      <Item value="output" priority="2" />
+      <Item value="input" priority="0" />
+      <Item value="tcpClient" priority="0" />
+      <Item value="stream" priority="1" />
+      <Item value="addres" priority="1" />
+      <Item value="isvalid" priority="1" />
+      <Item value="user" priority="0" />
+      <Item value="record" priority="1" />
+      <Item value="email1" priority="5" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="sp" priority="3" />
+      <Item value="aa" priority="1" />
+      <Item value="CreateDate" priority="0" />
+      <Item value="commandBarButton2" priority="0" />
+      <Item value="tStart" priority="1" />
+      <Item value="radTextBox2" priority="3" />
+      <Item value="radTextBox5" priority="2" />
+      <Item value="MessageBox`0" priority="12" />
+      <Item value="tel" priority="0" />
+      <Item value="Color`0" priority="5" />
+      <Item value="PersonUI`0" priority="0" />
+      <Item value="Website`0" priority="2" />
+      <Item value="radTextBox1" priority="0" />
+      <Item value="web" priority="10" />
+      <Item value="Address`0" priority="1" />
+      <Item value="radTextBox4" priority="0" />
+      <Item value="Phone`0" priority="3" />
+      <Item value="phone" priority="9" />
+      <Item value="radTextBox3" priority="0" />
+      <Item value="radGridView1" priority="0" />
+      <Item value="XmlReadMode`0" priority="0" />
+      <Item value="l" priority="1" />
+      <Item value="IFeatureSupport`0" priority="1" />
+      <Item value="documentWindow3" priority="0" />
+      <Item value="DockStyle`0" priority="0" />
+      <Item value="Person" priority="38" />
+      <Item value="pop3Client" priority="0" />
+      <Item value="OAuthBase" priority="0" />
+      <Item value="c" priority="3" />
+      <Item value="richTextBox1" priority="4" />
+      <Item value="ImportContact`0" priority="0" />
+      <Item value="ImportContact" priority="0" />
+      <Item value="o" priority="9" />
+      <Item value="emails" priority="1" />
+      <Item value="Str`0" priority="2" />
+      <Item value="checkedListBox1" priority="5" />
+      <Item value="label1" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="RadCheckBox`0" priority="2" />
+      <Item value="stringlist" priority="1" />
+      <Item value="Top" priority="0" />
+      <Item value="radGroupBox2" priority="0" />
+      <Item value="stringList" priority="0" />
+      <Item value="NHibernate" priority="0" />
+      <Item value="ISQLQuery`0" priority="0" />
+      <Item value="InputType`0" priority="0" />
+      <Item value="resa" priority="2" />
+      <Item value="pers" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="radScrollablePanel1" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="cat" priority="0" />
+      <Item value="sender" priority="1" />
+      <Item value="Dictionary" priority="3" />
+      <Item value="object" priority="4" />
+      <Item value="dic" priority="2" />
+      <Item value="StringSplitOptions`0" priority="3" />
+      <Item value="cat0" priority="0" />
+      <Item value="variable" priority="0" />
+      <Item value="ss" priority="5" />
+      <Item value="XmlTreeNode`0" priority="1" />
+      <Item value="Checked" priority="0" />
+      <Item value="control" priority="1" />
+      <Item value="checked" priority="0" />
+      <Item value="Restrictions`0" priority="2" />
+      <Item value="Restrictions" priority="0" />
+      <Item value="ICriterion`0" priority="0" />
+      <Item value="ic" priority="0" />
+      <Item value="as" priority="2" />
+      <Item value="Expression`0" priority="0" />
+      <Item value="or" priority="0" />
+      <Item value="radScrollablePanel2" priority="1" />
+      <Item value="person1" priority="0" />
+      <Item value="Control`0" priority="3" />
+      <Item value="Control" priority="0" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="IList`0" priority="2" />
+      <Item value="List&lt;Control&gt;" priority="0" />
+      <Item value="RadPanel`0" priority="0" />
+      <Item value="f" priority="5" />
+      <Item value="Fill" priority="0" />
+      <Item value="presendlist" priority="3" />
+      <Item value="splitPanel2" priority="1" />
+      <Item value="radCheckBox1" priority="0" />
+      <Item value="radSplitContainer2" priority="0" />
+      <Item value="radProgressBar2" priority="3" />
+      <Item value="max" priority="1" />
+      <Item value="cur1" priority="1" />
+      <Item value="cur2" priority="1" />
+      <Item value="radListView1" priority="2" />
+      <Item value="radlistv" priority="1" />
+      <Item value="Telerik" priority="0" />
+      <Item value="WinControls" priority="0" />
+      <Item value="Enumerations" priority="0" />
+      <Item value="ToggleState`0" priority="1" />
+      <Item value="RegexUtilities`0" priority="0" />
+      <Item value="reqe" priority="0" />
+      <Item value="dict" priority="0" />
+      <Item value="KeyValuePair" priority="0" />
+      <Item value="item" priority="3" />
+      <Item value="ObjectInstance" priority="1" />
+      <Item value="CheckState`0" priority="0" />
+      <Item value="grp" priority="3" />
+      <Item value="api_id" priority="0" />
+      <Item value="text" priority="1" />
+      <Item value="Nullable`0" priority="0" />
+      <Item value="Imagetrack" priority="4" />
+      <Item value="ImageTrack" priority="0" />
+      <Item value="ImageTemplateManager`0" priority="2" />
+      <Item value="textBox1" priority="10" />
+      <Item value="SWSPEmailTracker" priority="2" />
+      <Item value="TrackImage`0" priority="18" />
+      <Item value="IncommingEmail" priority="0" />
+      <Item value="OutgoingEmail`0" priority="8" />
+      <Item value="OutgoingEmail" priority="1" />
+      <Item value="i" priority="5" />
+      <Item value="from" priority="1" />
+      <Item value="select" priority="0" />
+      <Item value="od" priority="0" />
+      <Item value="id" priority="2" />
+      <Item value="dat" priority="2" />
+      <Item value="radLabel1" priority="1" />
+      <Item value="txt" priority="1" />
+      <Item value="toolStripTextBox1" priority="0" />
+      <Item value="TraksLlll`0" priority="0" />
+      <Item value="vendlist" priority="0" />
+      <Item value="SWSPVCard" priority="0" />
+      <Item value="vCard`0" priority="0" />
+      <Item value="vCard" priority="0" />
+      <Item value="TextReader`0" priority="2" />
+      <Item value="tr" priority="8" />
+      <Item value="FileStream`0" priority="2" />
+      <Item value="Open" priority="2" />
+      <Item value="filename" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="t" priority="5" />
+      <Item value="cl" priority="1" />
+      <Item value="vcard" priority="1" />
+      <Item value="ConnectionString" priority="0" />
+      <Item value="iPInformationToolStripMenuItem" priority="0" />
+      <Item value="ImageTemplateManager" priority="0" />
+      <Item value="PersonTrack" priority="0" />
+      <Item value="SendingMail`0" priority="0" />
+      <Item value="SendingMail" priority="0" />
+      <Item value="TemplateManager`0" priority="1" />
+      <Item value="TemplateManager" priority="0" />
+      <Item value="MainForm`0" priority="2" />
+      <Item value="_shouldStopTrackSync" priority="2" />
+      <Item value="ThreadStart" priority="0" />
+      <Item value="UpdateSync`0" priority="0" />
+      <Item value="Thread`0" priority="6" />
+      <Item value="Stopped" priority="0" />
+      <Item value="Updategraphcontry`0" priority="0" />
+      <Item value="_syncGraphThread" priority="2" />
+      <Item value="Thread" priority="3" />
+      <Item value="_syncIncommingEmailsThread" priority="2" />
+      <Item value="Loadincommingemails`0" priority="3" />
+      <Item value="AutoSize" priority="0" />
+      <Item value="TemplateManagerEditor`0" priority="0" />
+      <Item value="InboxInformation`0" priority="2" />
+      <Item value="inboxInformation" priority="5" />
+      <Item value="UpdateInboxesSync`0" priority="1" />
+      <Item value="_syncInboxesThread" priority="3" />
+      <Item value="_syncTrackItemsThread" priority="3" />
+      <Item value="Start" priority="0" />
+      <Item value="ManageThreads`0" priority="0" />
+      <Item value="_managinThread" priority="0" />
+      <Item value="sf" priority="0" />
+      <Item value="finally" priority="1" />
+      <Item value="_NHsessionMutex" priority="0" />
+      <Item value="nhs" priority="2" />
+      <Item value="DictionarySectionHandler`0" priority="0" />
+      <Item value="ISession`0" priority="0" />
+      <Item value="ISessionFactory`0" priority="2" />
+      <Item value="threadId" priority="5" />
+      <Item value="_nhSession" priority="0" />
+      <Item value="_sessionDistionry" priority="2" />
+      <Item value="_sessionFactoryDistionry" priority="4" />
+      <Item value="sessionFactory" priority="0" />
+      <Item value="Dictionary&lt;int,ISessionFactory&gt;" priority="0" />
+      <Item value="Dictionary&lt;int,ISession&gt;" priority="0" />
+      <Item value="FontDialog`0" priority="1" />
+      <Item value="FontStyle`0" priority="2" />
+      <Item value="fontStyle" priority="0" />
+      <Item value="FontStyle" priority="0" />
+      <Item value="BoldColumnAttribute`0" priority="1" />
+      <Item value="col" priority="0" />
+      <Item value="Font" priority="0" />
+      <Item value="FontName" priority="1" />
+      <Item value="fontName" priority="0" />
+      <Item value="FontSize" priority="1" />
+      <Item value="fontSize" priority="0" />
+      <Item value="forecolor" priority="0" />
+      <Item value="ForeColor" priority="0" />
+      <Item value="foreColor" priority="0" />
+      <Item value="const" priority="0" />
+      <Item value="LinkTrack`0" priority="12" />
+      <Item value="EmailTemplate`0" priority="7" />
+      <Item value="StreamReader`0" priority="2" />
+      <Item value="openDialog" priority="0" />
+      <Item value="StreamWriter`0" priority="0" />
+      <Item value="saveDialog" priority="0" />
+      <Item value="sw" priority="0" />
+      <Item value="BodyPlain" priority="0" />
+      <Item value="selectedTemplate" priority="1" />
+      <Item value="Date" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="sendmail`0" priority="0" />
+      <Item value="perl" priority="0" />
+      <Item value="button1" priority="0" />
+      <Item value="override" priority="11" />
+      <Item value="IList" priority="8" />
+      <Item value="ogml" priority="0" />
+      <Item value="outgoingEmail" priority="1" />
+      <Item value="oEmail" priority="1" />
+      <Item value="radButton4" priority="1" />
+      <Item value="StartUpTreads`0" priority="2" />
+      <Item value="List&lt;Groupdata&gt;" priority="0" />
+      <Item value="radChart1" priority="1" />
+      <Item value="_sessionMutex" priority="1" />
+      <Item value="ThreadState`0" priority="0" />
+      <Item value="toolStripComboBox1" priority="2" />
+      <Item value="pictureBox1" priority="2" />
+      <Item value="Image`0" priority="1" />
+      <Item value="MemoryStream`0" priority="3" />
+      <Item value="MemoryStream" priority="0" />
+      <Item value="ms" priority="7" />
+      <Item value="ToArray`1" priority="2" />
+      <Item value="saveFileDialog1" priority="1" />
+      <Item value="DialogResult`0" priority="3" />
+      <Item value="ImageFormatConverter`0" priority="0" />
+      <Item value="FileStream" priority="1" />
+      <Item value="OpenOrCreate" priority="0" />
+      <Item value="fs" priority="3" />
+      <Item value="openFileDialog1" priority="3" />
+      <Item value="Read" priority="0" />
+      <Item value="Stream`0" priority="0" />
+      <Item value="StreamReader" priority="0" />
+      <Item value="ImageFormat`0" priority="0" />
+      <Item value="Trackimage" priority="8" />
+      <Item value="YesNo" priority="2" />
+      <Item value="Yes" priority="0" />
+      <Item value="ErrorBlinkStyle`0" priority="0" />
+      <Item value="b" priority="4" />
+      <Item value="RichTextBoxLanguageOptions`0" priority="0" />
+      <Item value="local" priority="1" />
+      <Item value="Update`0" priority="0" />
+      <Item value="UpdateData`0" priority="1" />
+      <Item value="List" priority="2" />
+      <Item value="TrackImage" priority="0" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="byte" priority="1" />
+      <Item value="Title" priority="7" />
+      <Item value="Imagedata" priority="3" />
+      <Item value="fj" priority="1" />
+      <Item value="g" priority="1" />
+      <Item value="trackImage" priority="3" />
+      <Item value="h" priority="3" />
+      <Item value="PersonContacts`0" priority="1" />
+      <Item value="personInstantEdit1" priority="1" />
+      <Item value="protected" priority="0" />
+      <Item value="AddPersonLigth`0" priority="0" />
+      <Item value="textBox8" priority="5" />
+      <Item value="d" priority="0" />
+      <Item value="textBox3" priority="2" />
+      <Item value="website" priority="1" />
+      <Item value="textBox4" priority="2" />
+      <Item value="tmp" priority="0" />
+      <Item value="textBox2" priority="4" />
+      <Item value="spemail" priority="0" />
+      <Item value="List&lt;Person&gt;" priority="0" />
+      <Item value="SimilarPerson" priority="1" />
+      <Item value="FindSimilar`0" priority="1" />
+      <Item value="checkedItem" priority="2" />
+      <Item value="phh" priority="4" />
+      <Item value="chkp" priority="1" />
+      <Item value="incommingEmail" priority="1" />
+      <Item value="ibcc" priority="0" />
+      <Item value="ShowInUI`0" priority="1" />
+      <Item value="radButton3" priority="0" />
+      <Item value="label9" priority="0" />
+      <Item value="trackdata" priority="0" />
+      <Item value="CurrentPerson" priority="7" />
+      <Item value="progressBar1" priority="2" />
+      <Item value="Splash`0" priority="2" />
+      <Item value="LinkTemplateManager`0" priority="0" />
+      <Item value="City" priority="1" />
+      <Item value="Country" priority="0" />
+      <Item value="Type" priority="1" />
+      <Item value="ExtendedAddress" priority="0" />
+      <Item value="Formatted" priority="0" />
+      <Item value="POBox" priority="0" />
+      <Item value="PostalCode" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="extgrp" priority="1" />
+      <Item value="Organization`0" priority="1" />
+      <Item value="Department" priority="1" />
+      <Item value="JobDescription" priority="1" />
+      <Item value="Location" priority="1" />
+      <Item value="Name" priority="2" />
+      <Item value="Symbol" priority="1" />
+      <Item value="IDataAdapter`0" priority="0" />
+      <Item value="_tooltip" priority="1" />
+      <Item value="toolTip1" priority="1" />
+      <Item value="s1" priority="0" />
+      <Item value="config" priority="4" />
+      <Item value="IListSource`0" priority="0" />
+      <Item value="Object`0" priority="1" />
+      <Item value="ctor" priority="0" />
+      <Item value="OpenConnection`0" priority="0" />
+      <Item value="connection" priority="8" />
+      <Item value="_connectionString" priority="2" />
+      <Item value="command" priority="1" />
+      <Item value="MySqlTransaction`0" priority="0" />
+      <Item value="cmd" priority="4" />
+      <Item value="trn" priority="2" />
+      <Item value="connectionString" priority="0" />
+      <Item value="List&lt;object&gt;" priority="0" />
+      <Item value="ret" priority="1" />
+      <Item value="dataReader" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="WebDataAccess`0" priority="0" />
+      <Item value="webDataAccess" priority="3" />
+      <Item value="Type`0" priority="0" />
+      <Item value="type" priority="0" />
+      <Item value="DataTable`0" priority="2" />
+      <Item value="items" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="FeatureSupport`0" priority="0" />
+      <Item value="fw" priority="0" />
+      <Item value="thisIsNew" priority="0" />
+      <Item value="ggg" priority="0" />
+      <Item value="linkTrack" priority="5" />
+      <Item value="LinkTrack" priority="0" />
+      <Item value="ValueType`0" priority="0" />
+      <Item value="linktrack" priority="0" />
+      <Item value="et" priority="1" />
+      <Item value="ti" priority="0" />
+      <Item value="trd" priority="0" />
+      <Item value="WebDataAccess" priority="0" />
+      <Item value="MySqlConnection`0" priority="0" />
+      <Item value="ConnectionState`0" priority="0" />
+      <Item value="LocalID" priority="6" />
+      <Item value="ConfigurationErrorsException`0" priority="0" />
+      <Item value="TrackDest" priority="1" />
+      <Item value="DataRow`0" priority="1" />
+      <Item value="dr" priority="1" />
+      <Item value="TypedReference`0" priority="0" />
+      <Item value="ArgumentOutOfRangeException`0" priority="0" />
+      <Item value="MySqlParameter`0" priority="0" />
+      <Item value="parameter" priority="0" />
+      <Item value="MySqlParameter" priority="2" />
+      <Item value="TrackImageByte" priority="1" />
+      <Item value="DKIMDomain" priority="1" />
+      <Item value="DKIMSelector" priority="1" />
+      <Item value="EmailSubject" priority="1" />
+      <Item value="FromName" priority="1" />
+      <Item value="Host" priority="1" />
+      <Item value="Password" priority="1" />
+      <Item value="ReplyTo" priority="1" />
+      <Item value="SenderUsername" priority="1" />
+      <Item value="EmailHTMLData" priority="1" />
+      <Item value="EmailPlainData" priority="1" />
+      <Item value="sendingname" priority="2" />
+      <Item value="lastTrackData`0" priority="0" />
+      <Item value="VisitorID" priority="1" />
+      <Item value="TrackID" priority="1" />
+      <Item value="RegionName" priority="0" />
+      <Item value="AreaCode" priority="0" />
+      <Item value="t1" priority="1" />
+      <Item value="result" priority="2" />
+      <Item value="TrackName" priority="1" />
+      <Item value="Count" priority="1" />
+      <Item value="radTreeView1" priority="1" />
+      <Item value="where" priority="0" />
+      <Item value="RadTreeNode`0" priority="0" />
+      <Item value="t2" priority="4" />
+      <Item value="Visitor" priority="1" />
+      <Item value="ddd" priority="4" />
+      <Item value="IPdd" priority="4" />
+      <Item value="Datetime" priority="0" />
+      <Item value="Form" priority="0" />
+      <Item value="MySqlConnection" priority="0" />
+      <Item value="connectiontimeout" priority="0" />
+      <Item value="Decimal" priority="0" />
+      <Item value="dt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="5" />
+      <Item value="ContainsKey`0" priority="4" />
+      <Item value="Count" priority="0" />
+      <Item value="Indexer" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString`0" priority="2" />
+      <Item value="Split`0" priority="7" />
+      <Item value="Replace`0" priority="4" />
+      <Item value="Contains`0" priority="12" />
+      <Item value="ToLower`0" priority="0" />
+      <Item value="Trim`0" priority="4" />
+      <Item value="StartsWith`0" priority="0" />
+      <Item value="Length" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripProgressBar">
+      <Item value="Visible" priority="2" />
+      <Item value="Value" priority="4" />
+      <Item value="Maximum" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="DoEvents`0" priority="17" />
+      <Item value="Exit`0" priority="1" />
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.TrackData">
+      <Item value="DateTime" priority="4" />
+      <Item value="Descr" priority="1" />
+      <Item value="SessionID" priority="0" />
+      <Item value="TrackID" priority="3" />
+      <Item value="VisitorID" priority="6" />
+      <Item value="VisitorIP" priority="1" />
+      <Item value="IP" priority="3" />
+      <Item value="Persist`0" priority="0" />
+      <Item value="LogUpdate`0" priority="0" />
+      <Item value="Trackname" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPETl.Model.TrackData">
+      <Item value="Delete`0" priority="0" />
+      <Item value="DateTime" priority="1" />
+      <Item value="VisitorID" priority="2" />
+      <Item value="VisitorIP" priority="5" />
+      <Item value="SessionID" priority="1" />
+      <Item value="TrackID" priority="3" />
+      <Item value="Descr" priority="1" />
+      <Item value="Persist`0" priority="0" />
+      <Item value="LoadAll`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SWSPEmailTracker.web.Infrastructure.DataAccess">
+      <Item value="Flush`0" priority="0" />
+      <Item value="NhSession" priority="5" />
+      <Item value="UpdateDatabase`0" priority="0" />
+      <Item value="CreateDatabase`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Where`1" priority="10" />
+      <Item value="First`1" priority="11" />
+      <Item value="Count" priority="16" />
+      <Item value="ToList`1" priority="2" />
+      <Item value="Add`0" priority="4" />
+      <Item value="Take`1" priority="0" />
+      <Item value="AddRange`0" priority="4" />
+      <Item value="Select`2" priority="0" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="OrderBy`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Where`1" priority="8" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToList`1" priority="25" />
+      <Item value="Fetch`2" priority="0" />
+      <Item value="OrderByDescending`2" priority="0" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.TrackItem">
+      <Item value="Id" priority="0" />
+      <Item value="TrackTitle" priority="3" />
+      <Item value="ServerTrackID" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToByteArray`0" priority="0" />
+      <Item value="ToString`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SWSPET.BL.SWSPET.Model.Person">
+      <Item value="LoadAll`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Person">
+      <Item value="Id" priority="3" />
+      <Item value="FamilyName" priority="10" />
+      <Item value="Emails" priority="11" />
+      <Item value="Persist`0" priority="6" />
+      <Item value="Descriptor" priority="11" />
+      <Item value="GivenName" priority="9" />
+      <Item value="Websites" priority="8" />
+      <Item value="Addresses" priority="5" />
+      <Item value="Phones" priority="6" />
+      <Item value="GroupMembership" priority="9" />
+      <Item value="Vcard" priority="0" />
+      <Item value="Delete`0" priority="2" />
+      <Item value="FamilyNameYomi" priority="0" />
+      <Item value="Organizations" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="17" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="OrderBy`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.IPInfo">
+      <Item value="Id" priority="2" />
+      <Item value="IP" priority="4" />
+      <Item value="lat" priority="0" />
+      <Item value="lon" priority="0" />
+      <Item value="country" priority="0" />
+      <Item value="city" priority="0" />
+      <Item value="updateIPInformation`0" priority="0" />
+      <Item value="Persist`0" priority="1" />
+      <Item value="CountryCode" priority="1" />
+      <Item value="CountryName" priority="0" />
+      <Item value="AreaCode" priority="1" />
+      <Item value="MetroCode" priority="0" />
+      <Item value="RegionCode" priority="0" />
+      <Item value="RegionName" priority="2" />
+      <Item value="ZipCode" priority="0" />
+      <Item value="UpdateIPInformation`0" priority="0" />
+      <Item value="Descriptor" priority="0" />
+      <Item value="City" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SWSPET.BL.SWSPET.Model.TrackData">
+      <Item value="LoadAll`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SWSPET.BL.Infrastructure.DataAccess">
+      <Item value="NhSession" priority="28" />
+      <Item value="UpdateDatabase`0" priority="0" />
+      <Item value="PrivateNhSession" priority="1" />
+      <Item value="Flush`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Query`1" priority="16" />
+      <Item value="QueryOver`1" priority="8" />
+      <Item value="CreateSQLQuery`0" priority="0" />
+      <Item value="CreateCriteria`0" priority="0" />
+      <Item value="Close`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.ManyToOnePart`1">
+      <Item value="Nullable`0" priority="2" />
+      <Item value="Not" priority="8" />
+      <Item value="LazyLoad`0" priority="8" />
+      <Item value="Index`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlTextReader">
+      <Item value="Name" priority="0" />
+      <Item value="Value" priority="0" />
+      <Item value="ReadAttributeValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlDocument">
+      <Item value="Load`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNode">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SWSPET.BL.SWSPET.Model.IPInfo">
+      <Item value="LoadAll`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.IncommingEmail">
+      <Item value="Id" priority="0" />
+      <Item value="OriginalMessage" priority="1" />
+      <Item value="BCC" priority="14" />
+      <Item value="CC" priority="4" />
+      <Item value="TO" priority="4" />
+      <Item value="EmailAttachment" priority="1" />
+      <Item value="Body" priority="0" />
+      <Item value="Date" priority="1" />
+      <Item value="From" priority="4" />
+      <Item value="InReplayTo" priority="1" />
+      <Item value="MessageID" priority="1" />
+      <Item value="ReplayTo" priority="5" />
+      <Item value="ReturnPath" priority="5" />
+      <Item value="Sender" priority="5" />
+      <Item value="SentDate" priority="2" />
+      <Item value="Subject" priority="2" />
+      <Item value="Persist`0" priority="0" />
+      <Item value="HTMLBody" priority="2" />
+      <Item value="TextBody" priority="3" />
+      <Item value="IsRead" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.EmailAttachment">
+      <Item value="Id" priority="0" />
+      <Item value="AttachmentData" priority="3" />
+      <Item value="AttachmentType" priority="1" />
+      <Item value="FileName" priority="1" />
+      <Item value="Persist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Mime.Message">
+      <Item value="Headers" priority="11" />
+      <Item value="MessagePart" priority="1" />
+      <Item value="FindAllAttachments`0" priority="0" />
+      <Item value="RawMessage" priority="0" />
+      <Item value="FindAllMessagePartsWithMediaType`0" priority="0" />
+      <Item value="FindFirstHtmlVersion`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Mime.Header.MessageHeader">
+      <Item value="Bcc" priority="1" />
+      <Item value="Cc" priority="0" />
+      <Item value="To" priority="0" />
+      <Item value="From" priority="1" />
+      <Item value="Sender" priority="2" />
+      <Item value="ReplyTo" priority="3" />
+      <Item value="ReturnPath" priority="3" />
+      <Item value="InReplyTo" priority="1" />
+      <Item value="MessageId" priority="0" />
+      <Item value="DateSent" priority="0" />
+      <Item value="Date" priority="0" />
+      <Item value="Subject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Mime.Header.RfcMailAddress">
+      <Item value="Address" priority="4" />
+      <Item value="DisplayName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Email">
+      <Item value="Value" priority="20" />
+      <Item value="Person" priority="11" />
+      <Item value="IsValid" priority="3" />
+      <Item value="As`1" priority="0" />
+      <Item value="Persist`0" priority="1" />
+      <Item value="CreateDate" priority="2" />
+      <Item value="Type" priority="0" />
+      <Item value="hamed" priority="0" />
+      <Item value="Descriptor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="11" />
+      <Item value="Count" priority="1" />
+      <Item value="First`1" priority="0" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Contains`0" priority="4" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="Where`1" priority="1" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Mime.MessagePart">
+      <Item value="ContentType" priority="0" />
+      <Item value="Save`0" priority="0" />
+      <Item value="FileName" priority="1" />
+      <Item value="Body" priority="2" />
+      <Item value="BodyEncoding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Mime.ContentType">
+      <Item value="Name" priority="0" />
+      <Item value="MediaType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="3" />
+      <Item value="AddDays`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetString`0" priority="3" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISQLQuery">
+      <Item value="List`1" priority="1" />
+      <Item value="AddScalar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Charting.ChartSeries">
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.Charting.ChartSeriesItemsCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadChart">
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind`0" priority="0" />
+      <Item value="Visible" priority="0" />
+      <Item value="ResumeLayout`0" priority="0" />
+      <Item value="SuspendLayout`0" priority="0" />
+      <Item value="PerformLayout`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.Controls.WinControls.BaseGridView">
+      <Item value="DataSource" priority="1" />
+      <Item value="InitilizeGrid`0" priority="1" />
+      <Item value="SelectedRows" priority="1" />
+      <Item value="SuspendLayout`0" priority="0" />
+      <Item value="PerformLayout`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyPart">
+      <Item value="Default`0" priority="0" />
+      <Item value="Index`0" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="DataBoundItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.WebBrowser">
+      <Item value="DocumentText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.RichTextBox.RadRichTextBox">
+      <Item value="Document" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadTreeNodeCollection">
+      <Item value="Clear`0" priority="3" />
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.Form1+Groupdata">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.Form1+PersonTrack">
+      <Item value="trackName" priority="0" />
+      <Item value="VisitorIP" priority="0" />
+      <Item value="location" priority="0" />
+      <Item value="DateTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Min`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="3" />
+      <Item value="IsNullOrEmpty`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Sockets.SocketType">
+      <Item value="Stream" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Sockets.ProtocolType">
+      <Item value="IPv4" priority="1" />
+      <Item value="Tcp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.Infrastructure.Telnet">
+      <Item value="ToString`0" priority="0" />
+      <Item value="WaitFor`0" priority="0" />
+      <Item value="Check`0" priority="0" />
+      <Item value="SearchMx`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.Socket">
+      <Item value="Poll`0" priority="0" />
+      <Item value="Send`0" priority="1" />
+      <Item value="Receive`0" priority="1" />
+      <Item value="Connect`0" priority="0" />
+      <Item value="ReceiveBufferSize" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.TcpClient">
+      <Item value="Client" priority="0" />
+      <Item value="ReceiveBufferSize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="ASCII" priority="0" />
+      <Item value="Unicode" priority="0" />
+      <Item value="UTF8" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.NetworkStream">
+      <Item value="Write`0" priority="0" />
+      <Item value="Read`0" priority="0" />
+      <Item value="ReadByte`0" priority="0" />
+      <Item value="CanRead" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="Write`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="Read`0" priority="0" />
+      <Item value="ReadToEnd`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.CommandBarButton">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Abort`0" priority="8" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Start`0" priority="8" />
+      <Item value="IsAlive" priority="0" />
+      <Item value="ThreadState" priority="2" />
+      <Item value="ManagedThreadId" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadTextBox">
+      <Item value="Text" priority="8" />
+      <Item value="ForeColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Red" priority="0" />
+      <Item value="Green" priority="0" />
+      <Item value="FromArgb`0" priority="1" />
+      <Item value="Navy" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Website">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Address">
+      <Item value="ExtendedAddress" priority="1" />
+      <Item value="Formatted" priority="1" />
+      <Item value="Descriptor" priority="2" />
+      <Item value="City" priority="0" />
+      <Item value="Country" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="POBox" priority="0" />
+      <Item value="PostalCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Phone">
+      <Item value="Value" priority="6" />
+      <Item value="Person" priority="5" />
+      <Item value="Type" priority="1" />
+      <Item value="Persist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadGridView">
+      <Item value="DataSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="First`1" priority="0" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="Max`2" priority="0" />
+      <Item value="Take`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.Docking.DocumentWindow">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Clear`0" priority="3" />
+      <Item value="Add`0" priority="3" />
+      <Item value="AddRange`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
+      <Item value="OpenSession`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Control.RecentContacts">
+      <Item value="Dock" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DockStyle">
+      <Item value="Fill" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Dns">
+      <Item value="GetHostEntry`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:OpenPop.Pop3.Pop3Client">
+      <Item value="Connected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.ImportContact">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckedListBox">
+      <Item value="DataSource" priority="2" />
+      <Item value="DisplayMember" priority="0" />
+      <Item value="Items" priority="5" />
+      <Item value="SetItemChecked`0" priority="0" />
+      <Item value="CheckedItems" priority="1" />
+      <Item value="SelectedItem" priority="1" />
+      <Item value="SelectedItems" priority="0" />
+      <Item value="ValueMember" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadCheckBox">
+      <Item value="Name" priority="1" />
+      <Item value="Text" priority="0" />
+      <Item value="Dock" priority="0" />
+      <Item value="IsChecked" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.stringlist">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadGroupBox">
+      <Item value="Controls" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadScrollablePanel">
+      <Item value="Controls" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="3" />
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringSplitOptions">
+      <Item value="RemoveEmptyEntries" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadRadioButton">
+      <Item value="IsChecked" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Criterion.Restrictions">
+      <Item value="Eq`0" priority="0" />
+      <Item value="Or`0" priority="0" />
+      <Item value="LeProperty`0" priority="0" />
+      <Item value="Like`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.Restrictions">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.ICriterion">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.Expression">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.Disjunction">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="Add`0" priority="0" />
+      <Item value="List`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType`0" priority="0" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadPanel">
+      <Item value="Controls" priority="0" />
+      <Item value="Dock" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.SendingMail">
+      <Item value="ResumeLayout`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.SplitPanel">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadSplitContainer">
+      <Item value="SplitPanels" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.SplitPanelCollection">
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadProgressBar">
+      <Item value="Maximum" priority="2" />
+      <Item value="Value1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadListView">
+      <Item value="DataSource" priority="1" />
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.ListViewDataItem">
+      <Item value="CheckState" priority="2" />
+      <Item value="Text" priority="2" />
+      <Item value="DataBoundItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Telerik.WinControls.Enumerations.ToggleState">
+      <Item value="On" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.Infrastructure.RegexUtilities">
+      <Item value="IsValidEmail`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.CheckState">
+      <Item value="Checked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPETl.Model.ImageTrack">
+      <Item value="TrackImageByte" priority="1" />
+      <Item value="Title" priority="0" />
+      <Item value="Persist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.ImageTemplateManager">
+      <Item value="ShowDialog`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="26" />
+      <Item value="TextLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.OutgoingEmail">
+      <Item value="Recipient" priority="3" />
+      <Item value="BodyPlain" priority="0" />
+      <Item value="Persist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadLabel">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripTextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.PersonTrack+TraksLlll">
+      <Item value="dat" priority="0" />
+      <Item value="txt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextReader">
+      <Item value="Read`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Read`0" priority="1" />
+      <Item value="Write`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.PersonTrack">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.TemplateManager">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.MainForm">
+      <Item value="Close`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ThreadState">
+      <Item value="Unstarted" priority="1" />
+      <Item value="Running" priority="0" />
+      <Item value="Aborted" priority="0" />
+      <Item value="Stopped" priority="0" />
+      <Item value="AbortRequested" priority="0" />
+      <Item value="StopRequested" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DataGridViewAutoSizeColumnMode">
+      <Item value="DisplayedCells" priority="0" />
+      <Item value="AllCells" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.Controls.WinControls.BaseGridView">
+      <Item value="RowHeadersVisible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.InboxInformation">
+      <Item value="Password" priority="2" />
+      <Item value="Host" priority="2" />
+      <Item value="UserName" priority="2" />
+      <Item value="IsSsl" priority="2" />
+      <Item value="PortPop3" priority="2" />
+      <Item value="PortSmtp" priority="1" />
+      <Item value="InboxName" priority="2" />
+      <Item value="DeleteAfterFetch" priority="2" />
+      <Item value="Persist`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.ThreadState">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="0" />
+      <Item value="CurrentThread" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Mutex">
+      <Item value="ReleaseMutex`0" priority="1" />
+      <Item value="WaitOne`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.FontStyle">
+      <Item value="Bold" priority="1" />
+      <Item value="Regular" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewColumn">
+      <Item value="DefaultCellStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellStyle">
+      <Item value="Font" priority="0" />
+      <Item value="ForeColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Font">
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.Infrastructure.BoldColumnAttribute">
+      <Item value="FontStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.OneToManyPart`1">
+      <Item value="Not" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPETl.Model.LinkTrack">
+      <Item value="TrackDest" priority="3" />
+      <Item value="Tracklink" priority="0" />
+      <Item value="LoadAll`0" priority="2" />
+      <Item value="Title" priority="0" />
+      <Item value="Persist`0" priority="0" />
+      <Item value="Delete`0" priority="0" />
+      <Item value="Update`0" priority="0" />
+      <Item value="LocalID" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.EmailTemplate">
+      <Item value="Id" priority="0" />
+      <Item value="EmailSubject" priority="0" />
+      <Item value="ONLineTemplateID" priority="0" />
+      <Item value="EmailPlainData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="FileName" priority="4" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="Text" priority="3" />
+      <Item value="Lines" priority="0" />
+      <Item value="TextLength" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SaveFileDialog">
+      <Item value="FileName" priority="1" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadButton">
+      <Item value="Enabled" priority="1" />
+      <Item value="Visible" priority="2" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripComboBox">
+      <Item value="ComboBox" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="DataSource" priority="0" />
+      <Item value="SelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPETl.Model.TrackImage">
+      <Item value="Title" priority="5" />
+      <Item value="TrackImageByte" priority="12" />
+      <Item value="TrackTitle" priority="1" />
+      <Item value="Persist`0" priority="0" />
+      <Item value="Id" priority="2" />
+      <Item value="LoadAll`0" priority="3" />
+      <Item value="Update`0" priority="0" />
+      <Item value="LocalID" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="Image" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Image">
+      <Item value="FromStream`0" priority="1" />
+      <Item value="FromFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Read`0" priority="1" />
+      <Item value="ReadByte`0" priority="0" />
+      <Item value="ToArray`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="1" />
+      <Item value="Yes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Image">
+      <Item value="Save`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Jpeg" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.TrackImage">
+      <Item value="Title" priority="2" />
+      <Item value="TrackImageByte" priority="1" />
+      <Item value="ServerTrackID" priority="2" />
+      <Item value="Persist`0" priority="1" />
+      <Item value="Delete`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="1" />
+      <Item value="MinValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.Controls.WinControls.PersonInstantEdit">
+      <Item value="Person" priority="1" />
+      <Item value="savenew" priority="1" />
+      <Item value="CurrentPerson" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckedListBox+ObjectCollection">
+      <Item value="Clear`0" priority="1" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ProgressBar">
+      <Item value="ResumeLayout`0" priority="0" />
+      <Item value="Value" priority="1" />
+      <Item value="PerformLayout`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.Splash">
+      <Item value="Visible" priority="1" />
+      <Item value="PerformLayout`0" priority="1" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPET.BL.SWSPET.Model.Organization">
+      <Item value="Descriptor" priority="1" />
+      <Item value="Department" priority="0" />
+      <Item value="Type" priority="0" />
+      <Item value="JobDescription" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Symbol" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Cfg.Configuration">
+      <Item value="Configure`0" priority="0" />
+      <Item value="BuildMappings`0" priority="1" />
+      <Item value="BuildSessionFactory`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.PersistenceModel">
+      <Item value="AddMappingsFromAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentConfiguration">
+      <Item value="BuildConfiguration`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlConnection">
+      <Item value="ConnectionString" priority="0" />
+      <Item value="State" priority="1" />
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlCommand">
+      <Item value="Transaction" priority="0" />
+      <Item value="ExecuteReader`0" priority="0" />
+      <Item value="Parameters" priority="0" />
+      <Item value="CommandTimeout" priority="1" />
+      <Item value="ExecuteNonQuery`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlTransaction">
+      <Item value="Commit`0" priority="0" />
+      <Item value="Rollback`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.Infrastructure.WebDataAccess">
+      <Item value="CloseConnection`0" priority="0" />
+      <Item value="Populate`0" priority="0" />
+      <Item value="Exec`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlDataReader">
+      <Item value="GetData`0" priority="1" />
+      <Item value="GetValues`0" priority="0" />
+      <Item value="FieldCount" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="ToList`1" priority="0" />
+      <Item value="Rows" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SWSPEmailTracker.web.SWSPETl.Model.TrackData">
+      <Item value="LoadAll`1" priority="1" />
+      <Item value="LoadList`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.Infrastructure.Entity`1">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.web.SWSPETl.Model.EmailTemplate">
+      <Item value="LoadAll`0" priority="0" />
+      <Item value="Update`0" priority="0" />
+      <Item value="LocalID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.ConnectionState">
+      <Item value="Closed" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlParameterCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SWSPEmailTracker.lastTrackData">
+      <Item value="Show`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadTreeNode">
+      <Item value="Name" priority="2" />
+      <Item value="Text" priority="1" />
+      <Item value="Nodes" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.WinControls.UI.RadTreeView">
+      <Item value="Nodes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IGrouping`2">
+      <Item value="Key" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MySql.Data.MySqlClient.MySqlDbType">
+      <Item value="Guid" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
